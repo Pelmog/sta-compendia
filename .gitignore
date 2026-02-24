@@ -1,0 +1,9 @@
+*.pem
+*.pub
+foundry-vtt-ssh-key*
+.DS_Store
+
+# Compiled LevelDB packs (must be compiled on target server)
+# Source JSON files in packs/_source/ are the canonical data
+packs/*
+!packs/_source
