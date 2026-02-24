@@ -172,7 +172,7 @@
     }
   ],
   "url": "https://github.com/FabulistVtt/sta-compendia",
-  "manifest": "https://raw.githubusercontent.com/FabulistVtt/sta-compendia/main/module.json",
-  "download": "https://github.com/FabulistVtt/sta-compendia/releases/download/v1.0.0/sta-compendia-v1.0.0.zip",
+  "manifest": "https://raw.githubusercontent.com/Pelmog/sta-compendia/foundry-v13-upgrade/module.json",
+  "download": "https://github.com/Pelmog/sta-compendia/releases/download/v1.0.0/sta-compendia-v1.0.0.zip",
   "id": "sta-compendia"
 }
