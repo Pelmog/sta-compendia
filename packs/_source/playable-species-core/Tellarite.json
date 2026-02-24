@@ -1,0 +1,52 @@
+{
+  "name": "Tellarite",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Tellarite",
+      "type": "text",
+      "_id": "TtvsXY37zZTysXz9",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<img style=\"display:block;margin:0px auto\" src=\"modules/sta-compendia/assets/icons/plain-core/plain-tellarite.svg\" width=\"256\" height=\"256\" /><p><strong>Requirements:</strong> None</p><p>The stout, hirsute Tellarite species comes from Tellar Prime, a temperate planet in the Alpha Quadrant. Theirs is a culture noted for being abrasive and argumentative, with a stubborn pride, quick tempers, and little patience. However, this is only a superficial view: while Tellarites are argumentative, it comes from a sense of intellectual honesty and rigorous skepticism. To a Tellarite, no idea, concept, or person is beyond challenge or analysis, and any notion that cannot stand up to scrutiny is an unworthy one. Tellarites revel in debates, and tend to greet one another with criticisms, complaints, and even insults; failing to respond in kind is poorly-regarded, as it displays a weakness of character and an unwillingness to confront flaws.</p><p><strong>Example Value:</strong> @UUID[Compendium.sta-compendia.values-core.mblsym0XZ73Ww9qL]{All ideas must withstand scrutiny}</p><ul><li><p><strong>Attributes:</strong> +1 Control, +1 Fitness, +1 Insight</p></li><li><p><strong>Trait:</strong> Tellarite. Tellarites have a keen sense of smell and a high tolerance for many common drugs, toxins, and inebriants (Tellarites don’t get drunk, just feisty). They also have excellent eyesight, and more acute perception of distance, depth, and dimension than Humans.</p></li><li><p><strong>Talents:</strong> The character receives access to the following talents:</p><ul><li><p>@UUID[Compendium.sta-compendia.species-talents-core.PGPV8Cncg0XZxSym]{Incisive Scrutiny}</p></li><li><p>@UUID[Compendium.sta-compendia.species-talents-core.RArbUZ6UFQFXUqfk]{Sturdy}</p></li></ul></li></ul>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!p8oOfmUoVgzKg9D4.TtvsXY37zZTysXz9"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "JournalEntry.Ed0tCyKbxUA4nnaB"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666028420060,
+    "modifiedTime": 1666031001865,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "p8oOfmUoVgzKg9D4",
+  "_key": "!journal!p8oOfmUoVgzKg9D4"
+}

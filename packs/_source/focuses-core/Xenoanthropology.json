@@ -1,0 +1,29 @@
+{
+  "name": "Xenoanthropology",
+  "type": "focus",
+  "img": "modules/sta-compendia/assets/icons/focuses-core/focus-heritage.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.udLjuGkm4hNLt3gX"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666012825052,
+    "modifiedTime": 1666017600202,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "cjaa7WLXsMXaNe2C",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!cjaa7WLXsMXaNe2C"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Structure (Destroyed)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-destroyed-structure.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.MNo4v40tDz3dZF82"
+    }
+  },
+  "_id": "NmyloTN30eajgYy9",
+  "system": {
+    "description": "<p>If the total number of Breaches the Structure System has suffered exceeds the ship&rsquo;s Scale, then the ship&rsquo;s hull integrity has been massively compromised, requiring nothing less than a full rebuild in Spacedock. With hull breaches across the ship, fires raging, and life support systems failing, the ship is crippled. The ship&rsquo;s Resistance is 0, Tasks to repair other systems on the ship can no longer be attempted during combat, and the ship may not move except by thrusters, as rapid movement might tear the ship apart. Subsequent hits to Structure affect the Engines System instead.</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666011541684,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!NmyloTN30eajgYy9"
+}

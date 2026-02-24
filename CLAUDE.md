@@ -1,0 +1,67 @@
+# sta-compendia
+
+Foundry VTT module providing compendium packs for the Star Trek Adventures (STA) system.
+
+## Project Structure
+
+```
+module.json              # Module manifest (compatibility, pack definitions)
+module/sta-compendia.js  # Startup script (legal popup dialog)
+module/credits.html      # Legal/credits HTML shown in popup
+packs/_source/           # Source JSON files for each compendium pack
+packs/<pack-name>/       # Compiled LevelDB packs (do not edit directly)
+assets/                  # Icons, maps, ship tokens
+scripts/                 # Build/conversion utilities
+```
+
+## Development Workflow
+
+### Prerequisites
+- Node.js
+- `@foundryvtt/foundryvtt-cli` (`npm install -g @foundryvtt/foundryvtt-cli`)
+
+### Editing Pack Data
+1. Edit JSON files in `packs/_source/<pack-name>/`
+2. Each file is one compendium entry, named by document name
+3. Every entry needs a `_key` field (format: `!<collection>!<id>`)
+4. Recompile after editing:
+   ```bash
+   fvtt package pack "<pack-name>" --type Module \
+     --in packs/_source/<pack-name>/ \
+     --out packs/<pack-name>/
+   ```
+
+### Adding New Pack Entries
+- Generate a 16-character alphanumeric `_id`
+- Set `_key` to `!<collection>!<id>` (e.g., `!items!abc123`)
+- Match the `system` field structure to the STA system data model for that item type
+
+### Key Prefixes by Pack Type
+| Pack type    | `_key` prefix |
+|-------------|---------------|
+| Item        | `!items!`     |
+| Actor       | `!actors!`    |
+| JournalEntry| `!journal!`   |
+| RollTable   | `!tables!`    |
+| Scene       | `!scenes!`    |
+
+### Recompiling All Packs
+```bash
+for pack in packs/_source/*/; do
+  name=$(basename "$pack")
+  fvtt package pack "$name" --type Module \
+    --in "packs/_source/$name/" --out "packs/$name/"
+done
+```
+
+## Compatibility
+- Foundry VTT: v13+
+- STA System: v2.0.0+
+- Pack data includes both 1e and 2e weapon types
+
+## Item Types
+- `talent`, `focus`, `value`, `item`, `injury` — shared between 1e/2e
+- `characterweapon` — 1e personal weapons
+- `characterweapon2e` — 2e personal weapons (adds `severity`, `stun`, removes `knockdown`/`viciousx`)
+- `starshipweapon` — 1e starship weapons (per-scale variants)
+- `starshipweapon2e` — 2e starship weapons (`includescale` replaces per-scale variants)

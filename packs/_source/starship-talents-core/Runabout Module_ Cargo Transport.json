@@ -1,0 +1,30 @@
+{
+  "name": "Runabout Module: Cargo Transport",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-structure.svg",
+  "system": {
+    "description": "<p><strong>Requirement:</strong> Danube Class Runabout, no other modules present</p>\n<p>The runabout&rsquo;s aft module has been configured to carry cargo.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666040057078,
+    "modifiedTime": 1666040410411,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "DIiUDt5mtwhUMpMn",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!DIiUDt5mtwhUMpMn"
+}

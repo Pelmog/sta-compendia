@@ -1,0 +1,49 @@
+{
+  "_id": "PZH2TBmXJBvNugbA",
+  "name": "Disruptor Cannon",
+  "type": "starshipweapon2e",
+  "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-disruptor-cannon.svg",
+  "system": {
+    "description": "<p>Disruptors are potent, damaging weapons favored by Klingons, Romulans, and other civilizations.</p><p>Cannons are close range, rapid-firing weapons that project pulses or bolts of energy. Devastating up close but inaccurate at range.</p>",
+    "damage": 2,
+    "range": "close",
+    "qualities": {
+      "energy": false,
+      "torpedo": false,
+      "area": false,
+      "calibration": false,
+      "cumbersome": false,
+      "dampening": false,
+      "depleting": false,
+      "devastating": true,
+      "highyield": false,
+      "intense": false,
+      "jamming": false,
+      "persistent": false,
+      "piercing": false,
+      "slowing": false,
+      "spread": false,
+      "hiddenx": 0,
+      "versatilex": 0
+    },
+    "includescale": "energy",
+    "opportunity": 0,
+    "escalation": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PZH2TBmXJBvNugbA"
+}

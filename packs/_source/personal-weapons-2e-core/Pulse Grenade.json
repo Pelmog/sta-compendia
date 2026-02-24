@@ -1,0 +1,45 @@
+{
+  "_id": "3LigJftd70I22Lih",
+  "name": "Pulse Grenade",
+  "type": "characterweapon2e",
+  "img": "modules/sta-compendia/assets/icons/weapons-core/pulse-grenade.webp",
+  "system": {
+    "description": "",
+    "damage": 4,
+    "range": "ranged",
+    "hands": 1,
+    "severity": 0,
+    "opportunity": 0,
+    "escalation": 0,
+    "qualities": {
+      "deadly": false,
+      "stun": false,
+      "accurate": false,
+      "area": true,
+      "charge": true,
+      "cumbersome": false,
+      "debilitating": false,
+      "grenade": true,
+      "inaccurate": false,
+      "intense": false,
+      "piercingx": false,
+      "hiddenx": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!3LigJftd70I22Lih"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Structure (Disabled)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-disabled-structure.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.Z1tVvtAX9L4nzEgo"
+    }
+  },
+  "_id": "rYfOuMRtiKkFMIbf",
+  "system": {
+    "description": "<p>If the total number of Breaches the Structure System has suffered is equal to the Scale of the ship, then the System has been disabled. The vessel has suffered many fires and serious hull breaches, as well as sections losing life support. The extreme disarray of the ship makes it extremely difficult to perform repairs, increasing the Complication range of all Engineering Tasks to repair the ship by 3, and the Difficulty of all Engineering Tasks to repair the ship by +1. This also reduces the ship&rsquo;s Resistance to half (rounding down) its normal value. The Difficulty to repair this &mdash; including the penalty from this damage &mdash; is 5, though at the Gamemaster&rsquo;s discretion this may be replaced with an Extended Task (Work 10, Magnitude 3, Resistance 2, base Difficulty 1).</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666011514469,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!rYfOuMRtiKkFMIbf"
+}

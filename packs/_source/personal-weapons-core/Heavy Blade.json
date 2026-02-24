@@ -1,0 +1,52 @@
+{
+  "_id": "BSINEmKXC2jhxhVc",
+  "name": "Heavy Blade",
+  "type": "characterweapon",
+  "img": "modules/sta-compendia/assets/icons/weapons-core/bat-leth.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.wJcEsRx48b1IUWok"
+    }
+  },
+  "system": {
+    "description": "<p><strong>Heavy blades</strong> like the <em>bat&rsquo;leth</em>, <em>kar&rsquo;takin</em>, and the Vulcan <em>lirpa</em> only see use in heavily ritualized combat or in very limited situations where hand-to-hand combat is almost assured.</p>",
+    "damage": 3,
+    "range": "Melee",
+    "hands": 2,
+    "qualities": {
+      "area": false,
+      "intense": false,
+      "knockdown": false,
+      "accurate": false,
+      "charge": false,
+      "cumbersome": false,
+      "deadly": false,
+      "debilitating": false,
+      "grenade": false,
+      "inaccurate": false,
+      "nonlethal": false,
+      "hiddenx": 0,
+      "piercingx": 0,
+      "viciousx": 1,
+      "opportunity": 0,
+      "escalation": 0
+    },
+    "opportunity": 1,
+    "escalation": 1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666128313554,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!BSINEmKXC2jhxhVc"
+}

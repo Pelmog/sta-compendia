@@ -1,0 +1,30 @@
+{
+  "_id": "a5HYhBjcNrQftXKs",
+  "name": "[Name  of other character] has always got my back",
+  "type": "value",
+  "img": "modules/sta-compendia/assets/icons/values-core/value-relationship.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.a5HYhBjcNrQftXKs"
+    }
+  },
+  "system": {
+    "description": "",
+    "used": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666003846966,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!a5HYhBjcNrQftXKs"
+}

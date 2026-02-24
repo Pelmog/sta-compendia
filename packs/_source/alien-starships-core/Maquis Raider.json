@@ -1,0 +1,184 @@
+{
+  "name": "Maquis Raider",
+  "type": "starship",
+  "img": "modules/sta-compendia/assets/ships/maquis/maquis-raider-token.webp",
+  "system": {
+    "notes": "<p><strong>Please refer to page 268 of the \"Core Rulebook\" to find details on this ship.</strong></p>\n<p>Due to the terms of Modiphius' permission to adapt \"Star Trek Adventures\" for this module, we may not provide information intended exclusively for Gamemasters.</p>",
+    "crew": {
+      "value": 0,
+      "max": 1
+    },
+    "departments": {
+      "command": {
+        "label": "sta.actor.starship.department.command",
+        "value": "0",
+        "selected": true
+      },
+      "conn": {
+        "label": "sta.actor.starship.department.conn",
+        "value": "0",
+        "selected": false
+      },
+      "engineering": {
+        "label": "sta.actor.starship.department.engineering",
+        "value": "0",
+        "selected": false
+      },
+      "medicine": {
+        "label": "sta.actor.starship.department.medicine",
+        "value": "0",
+        "selected": false
+      },
+      "science": {
+        "label": "sta.actor.starship.department.science",
+        "value": "0",
+        "selected": false
+      },
+      "security": {
+        "label": "sta.actor.starship.department.security",
+        "value": "0",
+        "selected": false
+      }
+    },
+    "designation": "",
+    "missionprofile": "",
+    "power": {
+      "value": 0,
+      "max": 7
+    },
+    "refit": "",
+    "resistance": 0,
+    "scale": 1,
+    "shields": {
+      "value": 0,
+      "max": 7
+    },
+    "servicedate": "",
+    "spaceframe": "",
+    "systems": {
+      "communications": {
+        "label": "sta.actor.starship.system.communications",
+        "value": 7,
+        "selected": true,
+        "breaches": 0
+      },
+      "computers": {
+        "label": "sta.actor.starship.system.computers",
+        "value": 7,
+        "selected": false,
+        "breaches": 0
+      },
+      "engines": {
+        "label": "sta.actor.starship.system.engines",
+        "value": 7,
+        "selected": false,
+        "breaches": 0
+      },
+      "sensors": {
+        "label": "sta.actor.starship.system.sensors",
+        "value": 7,
+        "selected": false,
+        "breaches": 0
+      },
+      "structure": {
+        "label": "sta.actor.starship.system.structure",
+        "value": 7,
+        "selected": false,
+        "breaches": 0
+      },
+      "weapons": {
+        "label": "sta.actor.starship.system.weapons",
+        "value": 7,
+        "selected": false,
+        "breaches": 0
+      }
+    },
+    "traits": ""
+  },
+  "prototypeToken": {
+    "name": "Raider",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/sta-compendia/assets/ships/maquis/maquis-raider-token.webp",
+      "scaleX": 0.4,
+      "scaleY": 0.4,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 2,
+    "height": 2,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "shields"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Actor.uX3K0KmG3k09AdGx"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666078562268,
+    "modifiedTime": 1666107999873,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "oG9t7MFYZi3D8jaR",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!oG9t7MFYZi3D8jaR"
+}

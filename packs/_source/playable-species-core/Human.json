@@ -1,0 +1,52 @@
+{
+  "name": "Human",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Human",
+      "type": "text",
+      "_id": "TtvsXY37zZTysXz9",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<img style=\"display:block;margin:0px auto\" src=\"modules/sta-compendia/assets/icons/plain-core/plain-human.svg\" width=\"256\" height=\"256\" /><p><strong>Requirements:</strong> None</p><p>Originating on the planet Earth in the Sol system, Humans are a resilient, diverse, and adaptable species, who developed from fractious, warring nations on the brink of mutual annihilation to a united, peaceful society in less than a century, and managed to forge alliances between former enemies within a century of achieving interstellar space flight. Earth is a founder and pivotal member of the United Federation of Planets, and many of the Federation’s institutions can be found on Earth. Humans often exhibit a dichotomy in their nature — being both driven to strong emotion and careful reason — and while they have largely grown beyond their warlike and divisive past, their drive and capacity for aggression are as much a part of their success as their curiosity and analytical minds.</p><p><strong>Example Value:</strong> @UUID[Compendium.sta-compendia.values-core.rbKSTogeMXHDEVox]{The drive for exploration}</p><ul><li><p><strong>Attributes:</strong> Instead of the normal Attribute options, choose three Attributes and add +1 to each of them.</p></li><li><p><strong>Trait:</strong> Human. Humans are adaptable and resilient, and their resolve and ambition often allow them to resist great hardship and triumph despite great adversity. However, Humans can also be reckless and stubborn, irrational, and unpredictable.</p></li><li><p><strong>Talents:</strong> The character receives access to the following talents:</p><ul><li><p>@UUID[Compendium.sta-compendia.species-talents-core.7ScF7S6uhcqD2hS1]{Resolute}</p></li><li><p>@UUID[Compendium.sta-compendia.species-talents-core.RNVTTf8rHoSeZG09]{Spirit of Discovery}</p></li></ul></li></ul>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TMdKQrtijCM6OpUl.TtvsXY37zZTysXz9"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "JournalEntry.MFFax63PtfYseGpi"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666028420060,
+    "modifiedTime": 1666030991434,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "TMdKQrtijCM6OpUl",
+  "_key": "!journal!TMdKQrtijCM6OpUl"
+}

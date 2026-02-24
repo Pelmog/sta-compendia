@@ -1,0 +1,49 @@
+{
+  "_id": "WH2MXHaF2SIoZx78",
+  "name": "Phased Polaron Beam Banks",
+  "type": "starshipweapon2e",
+  "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-polaron-beam-bank.svg",
+  "system": {
+    "description": "<p>Phased polaron beams are used by the Dominion, capable of bypassing conventional shield systems.</p><p>Banks focus multiple emitters together for concentrated fire.</p>",
+    "damage": 1,
+    "range": "medium",
+    "qualities": {
+      "energy": false,
+      "torpedo": false,
+      "area": false,
+      "calibration": false,
+      "cumbersome": false,
+      "dampening": true,
+      "depleting": false,
+      "devastating": false,
+      "highyield": false,
+      "intense": true,
+      "jamming": false,
+      "persistent": false,
+      "piercing": false,
+      "slowing": false,
+      "spread": false,
+      "hiddenx": 0,
+      "versatilex": 0
+    },
+    "includescale": "energy",
+    "opportunity": 0,
+    "escalation": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!WH2MXHaF2SIoZx78"
+}

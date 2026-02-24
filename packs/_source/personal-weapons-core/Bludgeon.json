@@ -1,0 +1,52 @@
+{
+  "name": "Bludgeon",
+  "type": "characterweapon",
+  "img": "modules/sta-compendia/assets/icons/weapons-core/bludgeon.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.u7e7WFbfRKHaKsbC"
+    }
+  },
+  "_id": "2D1ZMhurHNGw8XSk",
+  "system": {
+    "description": "<p><strong>Bludgeons</strong> &mdash; ranging from improvised blunt objects, to batons, cudgels, and maces &mdash; are a useful way of fending off aggressors, or disabling enemies. This profile can also be used for any two-handed ranged weapon, wielded as an impromptu club</p>",
+    "damage": 2,
+    "range": "Nahkampf",
+    "hands": 1,
+    "qualities": {
+      "area": false,
+      "intense": false,
+      "knockdown": true,
+      "accurate": false,
+      "charge": false,
+      "cumbersome": false,
+      "deadly": false,
+      "debilitating": false,
+      "grenade": false,
+      "inaccurate": false,
+      "nonlethal": false,
+      "hiddenx": 0,
+      "piercingx": 0,
+      "viciousx": 0,
+      "opportunity": 0,
+      "escalation": 0
+    },
+    "opportunity": 1,
+    "escalation": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1677619087912,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!2D1ZMhurHNGw8XSk"
+}

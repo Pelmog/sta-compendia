@@ -1,0 +1,28 @@
+{
+  "name": "Prosthesis",
+  "type": "item",
+  "img": "modules/sta-compendia/assets/icons/items-core/placeholder.webp",
+  "system": {
+    "description": "<p>Like artificial organs, prosthetic limbs have been in use since the middle of the 20th century, and advances in technology mean that they function identically to the limbs they replace. Arms and legs lost due to trauma can be replaced with relatively little difficulty. Characters who are lacking their prosthetic may find their physical activities are impaired, making some Tasks more difficult, and others impossible.</p>",
+    "quantity": 1,
+    "opportunity": 0,
+    "escalation": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666032183576,
+    "modifiedTime": 1666033427402,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "kzES8VP3zSAdhJoj",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!kzES8VP3zSAdhJoj"
+}

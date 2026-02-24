@@ -1,0 +1,29 @@
+{
+  "name": "Computer (Impact)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-hit-computers.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.6kbtwo4GxZIVy7BS"
+    }
+  },
+  "_id": "bTHhwoTP5G0VMQTl",
+  "system": {
+    "description": "<p>Whenever the Computers system suffers one or more Breaches, it disrupts those functions temporarily. Until the officer at the internal systems position (or someone in Engineering) performs the <em>Restore </em>Minor Action, the Computers system cannot be used to perform or assist any Tasks; additionally, all other Tasks attempted which are assisted by the ship increase their Complication range by 2, until that <em>Restore </em>Minor Action has been performed, due to disruptions in automation.</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666010655756,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!bTHhwoTP5G0VMQTl"
+}

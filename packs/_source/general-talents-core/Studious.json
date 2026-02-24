@@ -1,0 +1,31 @@
+{
+  "name": "Studious",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-knowledge.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.wH33xQ1MOiTZ7kVm"
+    }
+  },
+  "_id": "IEYKpWx2O9gIO97S",
+  "system": {
+    "description": "<p><strong>Requirements</strong>: None</p>\n<p>Whenever you spend one or more Momentum to Obtain Information, you may ask one additional question (in total, not per Momentum spent on Obtain Information).</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!IEYKpWx2O9gIO97S"
+}

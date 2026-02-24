@@ -1,0 +1,28 @@
+{
+  "name": "Neurocortical Monitor",
+  "type": "item",
+  "img": "modules/sta-compendia/assets/icons/items-core/neurocortical-monitor.webp",
+  "system": {
+    "description": "<p><strong>Opportunity 1</strong></p>\n<p>The neurocortical monitor is worn on a humanoids neck and resembles a small disc with pulsing lights. Before the invention of the neurocortical monitor, long-term data collection and monitoring of a patient exhibiting signs of neurological damage or trauma had to be undertaken in controlled environments in sickbays and major hospitals. The introduction of the monitor allowed doctors to collect information about the patient&rsquo;s neurological condition in real time in everyday circumstances where certain symptoms may present more often. Use of the neurocortical monitor allows a patient undergoing observation to continue to perform normal duties, lack of this device means the patient must remain isolated in sick bay and unable to perform any normal ship functions.</p>",
+    "quantity": 1,
+    "opportunity": 1,
+    "escalation": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666008738052,
+    "modifiedTime": 1677441056158,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "AbBEznE3Kg4fDprA",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!AbBEznE3Kg4fDprA"
+}

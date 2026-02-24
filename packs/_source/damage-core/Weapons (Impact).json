@@ -1,0 +1,29 @@
+{
+  "name": "Weapons (Impact)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-hit-weapons.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.wILung9IcaULp9n9"
+    }
+  },
+  "_id": "EaB1wSNKAH1wKPtU",
+  "system": {
+    "description": "<p>Whenever the Weapons system suffers one or more Breaches, it disrupts those functions temporarily. Until the tactical officer performs the <em>Restore </em>Minor Action, the ship cannot make any attacks, nor can it attempt any other Tasks which involve or would be assisted by the ship&rsquo;s Weapons System.</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666011583516,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!EaB1wSNKAH1wKPtU"
+}

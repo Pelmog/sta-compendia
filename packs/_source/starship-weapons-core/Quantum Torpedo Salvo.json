@@ -1,0 +1,42 @@
+{
+  "name": "Quantum Torpedo Salvo",
+  "type": "starshipweapon",
+  "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-quantum-torpedo-salvo.svg",
+  "system": {
+    "description": "<p>Quantum torpedoes are a recent development by the Federation, though others have made similar developments. They&rsquo;re more powerful than photon torpedoes, though the way they achieve this is classified. They have a base Damage of 4 Challenge Dice Vicious 1, with the Calibration and High-Yield Qualities.</p>\n<p>Torpedoes may be fired in a salvo: a volley of several torpedoes, intended to have a much greater effect. Firing a salvo of torpedoes adds 2 Threat to the pool, along with the 1 point of Threat for a torpedo attack, for a total of 3 Threat. Firing a salvo of torpedoes adds +3 to Threat instead of +1, but it increases the attack&rsquo;s damage by +1 Challenge Die, and grants the Spread effect to the attack.</p>\n<p><strong>Calibration:</strong> The weapon requires careful calibration before firing. The weapon cannot be used to attack unless a <em>Prepare </em>Minor Action is performed during the same Turn.</p>\n<p><strong>High-Yield:</strong> The weapon inflicts massive damage to enemy vessels; if the Attack inflicts one or more Breaches to a system, it inflicts one additional Breach.</p>\n<p><strong>Spread: </strong>The Attack inflicts additional damage elsewhere on the target. If one or more Effects is rolled, the Attack inflicts one additional hit to a random system (even if the Attack was targeting a specific system), which deals half the damage of the initial hit, rounding up, +1 for every Effect rolled after the first. This additional hit is resolved separately, and each hit against the target is reduced by Resistance, reduces Shields, and potentially causes Breaches, individually.</p>",
+    "damage": 5,
+    "range": "Long",
+    "qualities": {
+      "area": false,
+      "spread": true,
+      "dampening": false,
+      "calibration": true,
+      "devastating": false,
+      "highyield": true,
+      "persistentx": 0,
+      "piercingx": 0,
+      "viciousx": 1,
+      "hiddenx": 0,
+      "versatilex": 0
+    },
+    "opportunity": null,
+    "escalation": 3
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666034989668,
+    "modifiedTime": 1666035995343,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "FMX6ydaBlOlsloWe",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!FMX6ydaBlOlsloWe"
+}

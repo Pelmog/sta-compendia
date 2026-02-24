@@ -1,0 +1,45 @@
+{
+  "_id": "pec6g3GGuCOY7tdu",
+  "name": "Phase Pistol",
+  "type": "characterweapon2e",
+  "img": "modules/sta-compendia/assets/icons/weapons-core/phase-pistol.webp",
+  "system": {
+    "description": "",
+    "damage": 3,
+    "range": "ranged",
+    "hands": 1,
+    "severity": 0,
+    "opportunity": 0,
+    "escalation": 0,
+    "qualities": {
+      "deadly": false,
+      "stun": true,
+      "accurate": false,
+      "area": false,
+      "charge": false,
+      "cumbersome": false,
+      "debilitating": false,
+      "grenade": false,
+      "inaccurate": false,
+      "intense": false,
+      "piercingx": false,
+      "hiddenx": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pec6g3GGuCOY7tdu"
+}

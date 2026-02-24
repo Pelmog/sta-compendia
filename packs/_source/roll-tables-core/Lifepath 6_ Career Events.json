@@ -1,0 +1,350 @@
+{
+  "name": "Lifepath 6: Career Events",
+  "img": "modules/sta-compendia/assets/icons/plain-core/plain-starfleet.svg",
+  "description": "Rolls a random career event for a player character.",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "2OM2oYH7nxna7ZjQ",
+      "text": "Ship Destroyed",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.2OM2oYH7nxna7ZjQ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "6d1oO3hJX5cQv9Np",
+      "text": "Death of A Friend",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.6d1oO3hJX5cQv9Np"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "mfoubk4IeXRPOcSV",
+      "text": "Lauded by Another Culture",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.mfoubk4IeXRPOcSV"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "xhG7IXHNwntde0Nu",
+      "text": "Negotiate A Treaty",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.xhG7IXHNwntde0Nu"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "mnNx06i3lvIMrwRp",
+      "text": "Required to Take Command",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.mnNx06i3lvIMrwRp"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "IpNXThXBK1gF7wVU",
+      "text": "Encounter with A Truly Alien Being",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.IpNXThXBK1gF7wVU"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "wnxNNDTYxFButLxf",
+      "text": "Serious Injury",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.wnxNNDTYxFButLxf"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "iiwm9smrl0z4r5mE",
+      "text": "Conflict with A Hostile Creature",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.iiwm9smrl0z4r5mE"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "QV3qKMUrN8LZKiLU",
+      "text": "Mentored",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.QV3qKMUrN8LZKiLU"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "JhYxnsOcNhZXXlyx",
+      "text": "Transporter Accident",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.JhYxnsOcNhZXXlyx"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "f7hZRDt7ixU2J6Vw",
+      "text": "Dealing with A Plague",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.f7hZRDt7ixU2J6Vw"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "AONAFvxNT4s2mWCc",
+      "text": "Betrayed Ideals for A Superior",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.AONAFvxNT4s2mWCc"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "1xjUT5a8v0qL2pHM",
+      "text": "Called Out a Superior",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.1xjUT5a8v0qL2pHM"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "2otqPPzXXR5S4Bft",
+      "text": "New Battle Strategy",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.2otqPPzXXR5S4Bft"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "9XP6HC4OD7PtredJ",
+      "text": "Learns Unique Language",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.9XP6HC4OD7PtredJ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "VGkxn6IuuLDJBvSq",
+      "text": "Discovers an Artefact",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.VGkxn6IuuLDJBvSq"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "DYlxiWWzRzn4bEGC",
+      "text": "Special Commendation",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.DYlxiWWzRzn4bEGC"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "NX76lzzYlgbJsBga",
+      "text": "Solved an Engineering Crisis",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.NX76lzzYlgbJsBga"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "37437gn5n4IwpMGh",
+      "text": "Breakthrough or Invention",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.37437gn5n4IwpMGh"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "wyN0xKxRFurcTocL",
+      "text": "First Contact",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!qMEWfy06mgKiNdm4.wyN0xKxRFurcTocL"
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "RollTable.cUzhFt2zeTOJMQrU"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666031411138,
+    "modifiedTime": 1666119235505,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "qMEWfy06mgKiNdm4",
+  "_key": "!tables!qMEWfy06mgKiNdm4"
+}

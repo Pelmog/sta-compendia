@@ -1,0 +1,29 @@
+{
+  "name": "Computer (Destroyed)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-destroyed-computers.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.rtB4OriiBkw6oOFP"
+    }
+  },
+  "_id": "JDSoZtn5hgWfCWOl",
+  "system": {
+    "description": "<p>If the total number of Breaches the Computers system has suffered exceeds the ship&rsquo;s Scale, then the System has been Destroyed and must be replaced. This is identical to the Disabled effect, but it cannot be repaired. Further hits on the Computers system damage the Communications system instead.</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666010768557,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!JDSoZtn5hgWfCWOl"
+}

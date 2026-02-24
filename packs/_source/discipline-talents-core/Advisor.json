@@ -1,0 +1,31 @@
+{
+  "_id": "tRCmuT0csOxw8fvJ",
+  "name": "Advisor",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-command.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.k48yvrWViJEFHlYj"
+    }
+  },
+  "system": {
+    "description": "<p><strong>Requirement:</strong> Command 2+</p>\n<p>Whenever you assist another character using your <strong>Command</strong> Discipline, the character being assisted may re-roll one d20.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "command",
+      "minimum": 2
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!tRCmuT0csOxw8fvJ"
+}

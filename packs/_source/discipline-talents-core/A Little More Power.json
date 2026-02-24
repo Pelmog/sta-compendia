@@ -1,0 +1,31 @@
+{
+  "name": "A Little More Power",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-operations.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.thcilGaCD3gu63cJ"
+    }
+  },
+  "_id": "c5Rurae6Chp9HF59",
+  "system": {
+    "description": "<p><strong>Requirement:</strong> Engineering 3+</p>\n<p>Whenever you succeed at an <strong>Engineering</strong> Task aboard your own ship, you may spend one Momentum to regain one spent Power.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "engineering",
+      "minimum": 3
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!c5Rurae6Chp9HF59"
+}

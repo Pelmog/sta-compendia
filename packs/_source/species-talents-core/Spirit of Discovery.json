@@ -1,0 +1,31 @@
+{
+  "name": "Spirit of Discovery",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-human.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.kKDrFOM62TVrQS38"
+    }
+  },
+  "_id": "RNVTTf8rHoSeZG09",
+  "system": {
+    "description": "<p><strong>Requirement</strong>: Human, or Gamemaster&rsquo;s discretion.</p>\n<p>You have the drive, spirit, and courage to voyage into the unknown. You may spend one Determination to add three points to the group Momentum pool. The normal conditions for spending Determination still apply.</p>",
+    "talenttype": {
+      "typeenum": "species",
+      "description": "Human",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!RNVTTf8rHoSeZG09"
+}

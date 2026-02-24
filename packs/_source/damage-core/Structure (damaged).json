@@ -1,0 +1,29 @@
+{
+  "name": "Structure (damaged)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-damaged-structure.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.P4vQHzYhK93lrS6i"
+    }
+  },
+  "_id": "nod9rP19MXTeXs0s",
+  "system": {
+    "description": "<p>If the total number of Breaches the Structure System has suffered is equal to or greater than half the Scale of the ship, then the System has been significantly Damaged. The vessel suffers fires and/or minor hull breaches somewhere on the ship, forcing the area to be evacuated and sealed off. This makes it more problematic to reach parts of the ship in need of repair, increasing the Complication Range of all Engineering Tasks to repair Systems by 2. This also reduces the ship&rsquo;s Resistance by 1. The Difficulty to repair this is 3.</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666011470587,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!nod9rP19MXTeXs0s"
+}

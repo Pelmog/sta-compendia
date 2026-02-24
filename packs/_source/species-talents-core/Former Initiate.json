@@ -1,0 +1,31 @@
+{
+  "name": "Former Initiate",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-trill.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.G3JjCdZ3NCS98R2d"
+    }
+  },
+  "_id": "Vw3dwdhscvugLyMA",
+  "system": {
+    "description": "<p><strong>Requirement: </strong>Trill, may only be taken during Character Creation.</p>\n<p>You joined the Initiate Program, hoping to be chosen by the Symbiosis Commission to become Joined. As there are far more Initiates than there are Symbionts, you were one of the many who failed, but the quality of even a failed initiate is enough for Starfleet to recruit you. When you attempt a Task using Control or Reason, and spend Determination to buy a bonus d20 for that Task, you may re-roll your dice pool. Former Initiate cannot be taken if the character has the Joined Talent &mdash; they are mutually exclusive.</p>",
+    "talenttype": {
+      "typeenum": "species",
+      "description": "Trill",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!Vw3dwdhscvugLyMA"
+}

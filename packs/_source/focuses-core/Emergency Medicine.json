@@ -1,0 +1,29 @@
+{
+  "name": "Emergency Medicine",
+  "type": "focus",
+  "img": "modules/sta-compendia/assets/icons/focuses-core/focus-medical.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.wLT1UAAnTNDfezVa"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666012825052,
+    "modifiedTime": 1666017600191,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "wLT1UAAnTNDfezVa",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!wLT1UAAnTNDfezVa"
+}

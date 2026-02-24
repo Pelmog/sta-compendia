@@ -1,0 +1,34 @@
+{
+  "name": "Advanced Sickbay",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-medical.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.TrdLLSv5Jodf0UHt"
+    }
+  },
+  "_id": "wZrYxwFgXDmhFpXV",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> None</p>\n<p>The ship&rsquo;s sickbay is extremely well-equipped, and larger than is normal for a ship of this size. The ship gains the Advanced Sickbay Advantage, which applies to all Tasks related to medicine and biology performed within the sickbay itself. This Advantage is lost if the ship&rsquo;s Computers System is Disabled.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666012096026,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!wZrYxwFgXDmhFpXV"
+}

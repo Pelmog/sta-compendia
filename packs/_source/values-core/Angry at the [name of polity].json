@@ -1,0 +1,30 @@
+{
+  "name": "Angry at the [name of polity]",
+  "type": "value",
+  "img": "modules/sta-compendia/assets/icons/values-core/value-conflict.svg",
+  "system": {
+    "description": "",
+    "used": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.IC09b8C6MZQQefSU"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666014123752,
+    "modifiedTime": 1666014384294,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "cMuZ8BAQFVk7T3Q4",
+  "_key": "!items!cMuZ8BAQFVk7T3Q4"
+}

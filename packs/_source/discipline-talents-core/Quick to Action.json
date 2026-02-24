@@ -1,0 +1,31 @@
+{
+  "name": "Quick to Action",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-security.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.j2dbA1Ic65DR2UOa"
+    }
+  },
+  "_id": "w8lz8RFlKUWdSNPF",
+  "system": {
+    "description": "<p><strong>Requirement:</strong> Security 3+</p>\n<p>During the first round of any combat, you and your allies may ignore the normal cost to Retain the Initiative.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "security",
+      "minimum": 3
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!w8lz8RFlKUWdSNPF"
+}

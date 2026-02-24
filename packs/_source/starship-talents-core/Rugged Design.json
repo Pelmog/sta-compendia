@@ -1,0 +1,34 @@
+{
+  "name": "Rugged Design",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-operations.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.SmqbqxKpyf7uMq13"
+    }
+  },
+  "system": {
+    "description": "<p><strong>Requirements:</strong> None</p>\n<p>The ship is designed with the frontier in mind, with a durable construction and easy access to critical systems that allow repairs to be made easily. Reduce the Difficulty of all Tasks to repair the ship by 1, to a minimum of 1.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "science",
+      "minimum": 2
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666012257154,
+    "modifiedTime": 1666013815566,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "7ihOMl9tbQkiMWp9",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!7ihOMl9tbQkiMWp9"
+}

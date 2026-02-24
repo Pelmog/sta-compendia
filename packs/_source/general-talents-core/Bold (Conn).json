@@ -1,0 +1,31 @@
+{
+  "name": "Bold (Conn)",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-conn.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.2qwELPuhvTHNVtuI"
+    }
+  },
+  "_id": "K2D4LfuKxFtWDDp0",
+  "system": {
+    "description": "<p><strong>Requirements</strong>: None</p>\n<p>Whenever you attempt a Task with <strong>Conn</strong>, and you buy one or more d20s by adding to Threat, you may re-roll a single d20. You may select this Talent multiple times, once for each Discipline. You may not select this Talent for any Discipline for which you already have the Cautious Talent.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!K2D4LfuKxFtWDDp0"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Quick Study",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-medical.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.uomm13KvBFi66pW7"
+    }
+  },
+  "_id": "DMLkKdSkCpYxBcOO",
+  "system": {
+    "description": "<p><strong>REQUIREMENT</strong>: Medicine 3+</p>\n<p>When attempting a Task that will involve an unfamiliar medical procedure, or which is to treat an unfamiliar species, ignore any Difficulty increase stemming from your unfamiliarity.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "medicine",
+      "minimum": 3
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!DMLkKdSkCpYxBcOO"
+}

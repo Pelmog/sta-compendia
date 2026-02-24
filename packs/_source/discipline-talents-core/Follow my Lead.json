@@ -1,0 +1,31 @@
+{
+  "_id": "WXA4htD0Az3608QI",
+  "name": "Follow my Lead",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-command.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.nID9cqmiWvdIRVu1"
+    }
+  },
+  "system": {
+    "description": "<p><strong style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">Requirement:</strong><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&nbsp;</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">Command 3+</span></p>\n<p>Once per scene, when you succeed at a Task during combat or another perilous situation, you may spend one Determination. If you do, choose a single ally. The next Task that ally attempts counts as having assistance from you, using your <strong>Presence + Command</strong>.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "command",
+      "minimum": 3
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!WXA4htD0Az3608QI"
+}

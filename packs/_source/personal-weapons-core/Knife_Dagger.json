@@ -1,0 +1,52 @@
+{
+  "name": "Knife/Dagger",
+  "type": "characterweapon",
+  "img": "modules/sta-compendia/assets/icons/weapons-core/romulan-knife.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.wJcEsRx48b1IUWok"
+    }
+  },
+  "_id": "5EBbgFZWjIakfrhW",
+  "system": {
+    "description": "<p>Bladed weapons such as the knife or dagger continue to be useful as tools or for close combat situations. While projectile weapons and later energy weapons have surpassed the destructive power of hand weapons, developments over the centuries in materials science have given these weapons continued use in nearly every service as backup weapons or as tools that can be used in lieu of more specialist equipment.</p>",
+    "damage": 1,
+    "range": "Melee",
+    "hands": 1,
+    "qualities": {
+      "area": false,
+      "intense": false,
+      "knockdown": false,
+      "accurate": false,
+      "charge": false,
+      "cumbersome": false,
+      "deadly": true,
+      "debilitating": false,
+      "grenade": false,
+      "inaccurate": false,
+      "nonlethal": false,
+      "hiddenx": 1,
+      "piercingx": 0,
+      "viciousx": 1,
+      "opportunity": 0,
+      "escalation": 0
+    },
+    "opportunity": 1,
+    "escalation": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666025615771,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!5EBbgFZWjIakfrhW"
+}

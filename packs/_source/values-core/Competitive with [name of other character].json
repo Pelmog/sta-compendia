@@ -1,0 +1,26 @@
+{
+  "_id": "hLCvKp9Xvh0YiyCG",
+  "name": "Competitive with [name of other character]",
+  "type": "value",
+  "img": "modules/sta-compendia/assets/icons/values-core/value-relationship.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": "",
+    "used": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666003839380,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!hLCvKp9Xvh0YiyCG"
+}

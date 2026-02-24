@@ -1,0 +1,26 @@
+{
+  "_id": "Za9s3jwdPeGS53WA",
+  "name": "[Name  of other character] is a study buddy",
+  "type": "value",
+  "img": "modules/sta-compendia/assets/icons/values-core/value-relationship.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": "",
+    "used": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666003850239,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!Za9s3jwdPeGS53WA"
+}

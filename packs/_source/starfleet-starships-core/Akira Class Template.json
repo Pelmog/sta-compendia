@@ -1,0 +1,513 @@
+{
+  "name": "Akira Class Template",
+  "type": "starship",
+  "img": "modules/sta-compendia/assets/ships/starfleet/akira-token.webp",
+  "system": {
+    "notes": "<p><strong>Entered Service:</strong> 2368</p>\n<p><strong>Overview:</strong> During the aftermath of the Battle of Wolf 359 in 2367, Starfleet saw the need for a more heavily armed vessel capable of patrolling and protecting large volumes of territory against possible Borg incursions, while continuing the primary mission of all Starfleet vessels, exploring the unknown. The Advanced Starship Design Bureau at the Antares Fleet Yards took a concept design, never planned for service, and turned it into the U.S.S. Akira in 2368; trial runs were so successful that Starfleet Command immediately ordered full-scale production of the Akira class to begin.</p>\n<p><strong>Capabilities:</strong> Unlike most vessels of its mass, Akira-class starships do not have a separate engineering hull, rather the vessel is designed to be as compact as possible to aid in maintaining a strong defensive shield strength over its entire surface area. Other defensive measures included raised pontoon-like structures on either side of the saucer that contained secondary shield generators to help protect vital command and control systems as well as highly sensitive sensor networks for planetary survey and stellar cartography missions that could double as back-up targeting systems for the vessel&rsquo;s weaponry. The Akira class was also designed with extensive shuttlebays and attached support and maintenance facilities capable of manufacturing shuttles from scratch with the right raw materials. Capable of deploying shuttles of any size, fighters, and even Danube class runabouts, the Akira class is superb at space supremacy in combat roles and extensive stellar system survey in peacetime. If the mission assignment requires it, the shuttle recovery and maintenance systems are replaceable with cargo compartments and extra bulk transporter systems or even extra personnel quarters and life support systems to allow the craft to perform rescue and recovery operations. The torpedo pod mounted between the two pontoons aft of the hull isn&rsquo;t as easily replaceable as the shuttlebays in the main hull due to the complex power feeds and targeting system relays that feed up the connecting pylons to the pod. This hasn&rsquo;t stopped ASDB from working on ideas that include making sub-classes of the vessel that would replace the weapons systems with a subspace scanning array equal in size and resolution to ones typically seen in fixed installations. The torpedo pod itself is a unique design in Starfleet vessels, with a series of tubes in a line capable of a nearly continuous barrage as the system staggers the fire of each tube. Each of the standard tubes can be loaded with a store of subspace buoys or sensor probes, but the quantum torpedo systems standard on each vessel are dedicated systems and unable to launch alternate munitions.</p>",
+    "crew": {
+      "value": 0,
+      "max": 5
+    },
+    "departments": {
+      "command": {
+        "label": "sta.actor.starship.department.command",
+        "value": "0",
+        "selected": true
+      },
+      "conn": {
+        "label": "sta.actor.starship.department.conn",
+        "value": "0",
+        "selected": false
+      },
+      "engineering": {
+        "label": "sta.actor.starship.department.engineering",
+        "value": "0",
+        "selected": false
+      },
+      "medicine": {
+        "label": "sta.actor.starship.department.medicine",
+        "value": "1",
+        "selected": false
+      },
+      "science": {
+        "label": "sta.actor.starship.department.science",
+        "value": "0",
+        "selected": false
+      },
+      "security": {
+        "label": "sta.actor.starship.department.security",
+        "value": "2",
+        "selected": false
+      }
+    },
+    "designation": "",
+    "missionprofile": "",
+    "power": {
+      "value": 10,
+      "max": 10
+    },
+    "refit": "",
+    "resistance": 5,
+    "scale": 5,
+    "shields": {
+      "value": 13,
+      "max": 13
+    },
+    "servicedate": "",
+    "spaceframe": "AKIRA Class",
+    "systems": {
+      "communications": {
+        "label": "sta.actor.starship.system.communications",
+        "value": 9,
+        "selected": true,
+        "breaches": 0
+      },
+      "computers": {
+        "label": "sta.actor.starship.system.computers",
+        "value": 9,
+        "selected": false,
+        "breaches": 0
+      },
+      "engines": {
+        "label": "sta.actor.starship.system.engines",
+        "value": 10,
+        "selected": false,
+        "breaches": 0
+      },
+      "sensors": {
+        "label": "sta.actor.starship.system.sensors",
+        "value": 9,
+        "selected": false,
+        "breaches": 0
+      },
+      "structure": {
+        "label": "sta.actor.starship.system.structure",
+        "value": 11,
+        "selected": false,
+        "breaches": 0
+      },
+      "weapons": {
+        "label": "sta.actor.starship.system.weapons",
+        "value": 11,
+        "selected": false,
+        "breaches": 0
+      }
+    },
+    "traits": "Federation Starship"
+  },
+  "prototypeToken": {
+    "name": "Akira",
+    "displayName": 30,
+    "actorLink": true,
+    "texture": {
+      "src": "modules/sta-compendia/assets/ships/starfleet/akira-token.webp",
+      "scaleX": 1.1,
+      "scaleY": 1.1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 3,
+    "height": 3,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "shields"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Ablative Armor",
+      "type": "talent",
+      "img": "modules/sta-compendia/assets/icons/talents-core/talent-structure.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.SmqbqxKpyf7uMq13"
+        }
+      },
+      "_id": "m8UNvW9tIBSGe2AN",
+      "system": {
+        "description": "<p><strong>Requirements:</strong> 2371 or later</p>\n<p>The vessel&rsquo;s hull plating has an additional ablative layer that disintegrates slowly under extreme temperatures, such as those caused by energy weapons and torpedo blasts, dissipating the energy, and protecting the ship. This plating is replaced periodically. The ship&rsquo;s Resistance is increased by 2.</p>",
+        "talenttype": {
+          "typeenum": "general",
+          "description": "",
+          "minimum": 0
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "9PI5JN2B6J6t7h1h": 3,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666041249913,
+        "modifiedTime": 1666041249913,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_key": "!actors.items!fKYuVchI6SM3d2m7.m8UNvW9tIBSGe2AN"
+    },
+    {
+      "name": "Extensive Shuttlebays",
+      "type": "talent",
+      "img": "modules/sta-compendia/assets/icons/talents-core/talent-ship.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.TrdLLSv5Jodf0UHt"
+        }
+      },
+      "_id": "tscllBvQtLkkEf9D",
+      "system": {
+        "description": "<p><strong>Requirements:</strong> None</p>\n<p>The vessel&rsquo;s shuttlebays are large, well-supplied, and able to support a larger number of active shuttle missions simultaneously. The ship may have twice as many small craft active at any one time as it would normally allow, and it may carry up to two Scale 2 small craft. For more on small craft operations, see p. 232.</p>",
+        "talenttype": {
+          "typeenum": "general",
+          "description": "",
+          "minimum": 0
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "9PI5JN2B6J6t7h1h": 3,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666041255896,
+        "modifiedTime": 1666041255896,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_key": "!actors.items!fKYuVchI6SM3d2m7.tscllBvQtLkkEf9D"
+    },
+    {
+      "name": "Rapid Fire Torpedo Launcher",
+      "type": "talent",
+      "img": "modules/sta-compendia/assets/icons/talents-core/talent-torpedo.svg",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.SmqbqxKpyf7uMq13"
+        }
+      },
+      "system": {
+        "description": "<p><strong>Requirements:</strong> None</p>\n<p>The vessel&rsquo;s torpedo launchers have been redesigned to allow the ship to fire multiple torpedoes much more quickly and accurately. Whenever the crew add 3 to Threat to fire a torpedo salvo, they may re-roll a single d20 on the attack, and any number of Challenge Dice on the damage roll.</p>",
+        "talenttype": {
+          "typeenum": "general",
+          "description": "science",
+          "minimum": 2
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666012257154,
+        "modifiedTime": 1666041263488,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "4eOs1QwkOB0KMRvV",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!fKYuVchI6SM3d2m7.4eOs1QwkOB0KMRvV"
+    },
+    {
+      "name": "Phaser Arrays - Area (Scale 5)",
+      "type": "starshipweapon",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-phaser-array-area.svg",
+      "system": {
+        "description": "<p>Common to Starfleet and Cardassian vessels, phasers are a precise and adaptable weapon.</p>\n<p>Arrays are long strips of linked emitters that share a power feed, allowing the ship to fire from any point along the strip. This allows the ship to fire in multiple directions at once, or to adjust and fire on moving targets repeatedly in quick succession. Arrays have a Range category of Medium. Further, when declaring the target of an attack with an Array, the attacking character may choose to grant one of the Area or Spread effects to the attack.</p>\n<p><strong>Area:</strong> The attack affects a wider area, and can affect several targets at once. The attack automatically affects any vessel or damageable object within Contact of the initial target, and then one additional target within Close range of the initial target for each Effect rolled, starting with the next closest (as determined by the GM). If one or more Complications is rolled when using an Area attack, the GM may choose to use Complications to have an allied vessel or neutral bystander in the area affected by the attack. A target cannot be hit if it would have been more difficult to hit than the initial target.</p>\n<p><strong>Versatile 2:</strong> The attack gains 2 points of bonus Momentum if successful.</p>",
+        "damage": 5,
+        "range": "Medium",
+        "qualities": {
+          "area": true,
+          "spread": false,
+          "dampening": false,
+          "calibration": false,
+          "devastating": false,
+          "highyield": false,
+          "persistentx": 0,
+          "piercingx": 0,
+          "viciousx": 0,
+          "hiddenx": 0,
+          "versatilex": 2
+        },
+        "opportunity": null,
+        "escalation": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.tCrWdAQYSP8nHnOh"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666033815208,
+        "modifiedTime": 1666041290257,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "S254d44bocRyhr0z",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!fKYuVchI6SM3d2m7.S254d44bocRyhr0z"
+    },
+    {
+      "name": "Phaser Arrays - Spread (Scale 5)",
+      "type": "starshipweapon",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-phaser-array-spread.svg",
+      "system": {
+        "description": "<p>Common to Starfleet and Cardassian vessels, phasers are a precise and adaptable weapon.</p>\n<p>Arrays are long strips of linked emitters that share a power feed, allowing the ship to fire from any point along the strip. This allows the ship to fire in multiple directions at once, or to adjust and fire on moving targets repeatedly in quick succession. Arrays have a Range category of Medium. Further, when declaring the target of an attack with an Array, the attacking character may choose to grant one of the Area or Spread effects to the attack.</p>\n<p><strong>Spread:</strong> The Attack inflicts additional damage elsewhere on the target. If one or more Effects is rolled, the Attack inflicts one additional hit to a random system (even if the Attack was targeting a specific system), which deals half the damage of the initial hit, rounding up, +1 for every Effect rolled after the first. This additional hit is resolved separately, and each hit against the target is reduced by Resistance, reduces Shields, and potentially causes Breaches, individually.</p>\n<p><strong>Versatile 2:</strong> The attack gains 2 points of bonus Momentum if successful.</p>",
+        "damage": 4,
+        "range": "Medium",
+        "qualities": {
+          "area": false,
+          "spread": true,
+          "dampening": false,
+          "calibration": false,
+          "devastating": false,
+          "highyield": false,
+          "persistentx": 0,
+          "piercingx": 0,
+          "viciousx": 0,
+          "hiddenx": 0,
+          "versatilex": 2
+        },
+        "opportunity": null,
+        "escalation": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.YGBpckVp5sR7EYyh"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666033815208,
+        "modifiedTime": 1666041293146,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "09BpE7rrzMEfpEDs",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!fKYuVchI6SM3d2m7.09BpE7rrzMEfpEDs"
+    },
+    {
+      "name": "Photon Torpedo",
+      "type": "starshipweapon",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-photon-torpedo.svg",
+      "system": {
+        "description": "<p>Photon torpedoes use a simple payload of matter and anti-matter to create a large and devastating explosion. They&rsquo;re commonly used by many cultures, including the Klingons, the Cardassians, and the Federation. They have a base Damage of 3 Challenge Dice, with the High-Yield Quality.</p>\n<p><strong>High-Yield:</strong> The weapon inflicts massive damage to enemy vessels; if the Attack inflicts one or more Breaches to a system, it inflicts one additional Breach.</p>",
+        "damage": 3,
+        "range": "Long",
+        "qualities": {
+          "area": false,
+          "spread": false,
+          "dampening": false,
+          "calibration": false,
+          "devastating": false,
+          "highyield": true,
+          "persistentx": 0,
+          "piercingx": 0,
+          "viciousx": 0,
+          "hiddenx": 0,
+          "versatilex": 0
+        },
+        "opportunity": null,
+        "escalation": 1
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.NVp4iJi1YezyDpyi"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666034989668,
+        "modifiedTime": 1666041299721,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "e60L9mbzvp0Kpyoe",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!fKYuVchI6SM3d2m7.e60L9mbzvp0Kpyoe"
+    },
+    {
+      "name": "Photon Torpedo Salvo",
+      "type": "starshipweapon",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-photon-torpedo-salvo.svg",
+      "system": {
+        "description": "<p>Photon torpedoes use a simple payload of matter and anti-matter to create a large and devastating explosion. They&rsquo;re commonly used by many cultures, including the Klingons, the Cardassians, and the Federation. They have a base Damage of 3 Challenge Dice, with the High-Yield Quality.</p>\n<p>Torpedoes may be fired in a salvo: a volley of several torpedoes, intended to have a much greater effect. Firing a salvo of torpedoes adds 2 Threat to the pool, along with the 1 point of Threat for a torpedo attack, for a total of 3 Threat. Firing a salvo of torpedoes adds +3 to Threat instead of +1, but it increases the attack&rsquo;s damage by +1 Challenge Die, and grants the Spread effect to the attack.</p>\n<p><strong>High-Yield:</strong> The weapon inflicts massive damage to enemy vessels; if the Attack inflicts one or more Breaches to a system, it inflicts one additional Breach.</p>\n<p><strong>Spread:</strong> The Attack inflicts additional damage elsewhere on the target. If one or more Effects is rolled, the Attack inflicts one additional hit to a random system (even if the Attack was targeting a specific system), which deals half the damage of the initial hit, rounding up, +1 for every Effect rolled after the first. This additional hit is resolved separately, and each hit against the target is reduced by Resistance, reduces Shields, and potentially causes Breaches, individually</p>",
+        "damage": 4,
+        "range": "Long",
+        "qualities": {
+          "area": false,
+          "spread": true,
+          "dampening": false,
+          "calibration": false,
+          "devastating": false,
+          "highyield": true,
+          "persistentx": 0,
+          "piercingx": 0,
+          "viciousx": 0,
+          "hiddenx": 0,
+          "versatilex": 0
+        },
+        "opportunity": null,
+        "escalation": 3
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.aa4EOtTZRT1285Zn"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666034989668,
+        "modifiedTime": 1666041301457,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "qQC13SmJQESTedFC",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!fKYuVchI6SM3d2m7.qQC13SmJQESTedFC"
+    },
+    {
+      "name": "Tractor Beam (Strength 4)",
+      "type": "item",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-tractor-beam.svg",
+      "system": {
+        "description": "<p>The tactical officer engages a tractor beam at a nearby object or vessel. This requires a <strong>Control + Security</strong> Task, assisted by the ship&rsquo;s <strong>Structure + Security</strong> with a Difficulty of 2, and can only be directed at a target within Close range. If successful, the target vessel is immobilized and cannot move unless it can break free, using their shield modulations, the raw power of their engines, or disabling the tractor beam emitter (a Task in its own right), with a Difficulty of 4.</p>",
+        "quantity": 1,
+        "opportunity": 0,
+        "escalation": 0
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.LFASo3UmOJJSCCym"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666040589732,
+        "modifiedTime": 1666041304779,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "i0AZq1aiD07Zq3yg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!fKYuVchI6SM3d2m7.i0AZq1aiD07Zq3yg"
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Actor.fKYuVchI6SM3d2m7"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666041011659,
+    "modifiedTime": 1666108916375,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "fKYuVchI6SM3d2m7",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!fKYuVchI6SM3d2m7"
+}

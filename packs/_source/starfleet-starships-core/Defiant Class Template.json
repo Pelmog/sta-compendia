@@ -1,0 +1,618 @@
+{
+  "name": "Defiant Class Template",
+  "type": "starship",
+  "img": "modules/sta-compendia/assets/ships/starfleet/defiant-token.webp",
+  "system": {
+    "notes": "<p><strong>Entered Service:</strong> 2371</p>\n<p><strong>Overview:</strong> The primary purpose of Starfleet is science and exploration, with military prowess not being a priority. With some notable exceptions made during the EarthRomulan War, Starfleet had little experience designing ships specifically made for warfare. The Defiant class began development a year before the Battle of Wolf 359, and the starship&rsquo;s development and production was made a priority after the disastrous encounter with the Borg. Initial testing of the prototype showed serious flaws and was mothballed, along with the entire design project. The development of this class halted until 2370 when the commanding officer of Deep Space 9 requested the prototype be assigned to his command to help with the increasing tensions between the Federation and the Dominion.</p>\n<p><strong>Capabilities:</strong> The prototype (U.S.S. Defiant NX-74205) differs significantly from production models of the class by having a Romulan cloaking device. The amount of power required by the starship makes the cloak less effective than if it was used on another starship of similar mass, and careful sensor sweeps are still able to detect Defiant at close range. These same power requirements resulted in the shelving of the design due to the extreme power draw required for its weapon systems. The weapon systems installed include four forward-mounted pulsed phaser cannons, three secondary type-10 phaser strips, and a total of six (four forward and two aft mounted) multi-purpose torpedo launchers able to fire both standard Mark IV photon torpedoes or the newly developed quantum torpedoes. The class&rsquo;s maximum warp speed with weapons charged is warp 7, but with weapons offline Defiant class vessels can achieve an impressive Warp 9.5 from warp coils normally unable to produce such a steep subspace gradient. Power draw for propulsion is nearly identical at sublight speeds as the starship&rsquo;s structural integrity field struggles to handle maneuvers normally seen in single crew shuttles or fighters. All of the weapon systems and power generation come at the cost of crew comforts. The Defiant class is one of the smallest starships used by Starfleet in an active role with a standard crew size of 50. However, even with this small crew, all crew (except the captain) must share quarters and rely on a single mess hall for any recreation while on board. The interior space did allow the inclusion of a small shuttlebay that is primarily for use when the starship is assigned to reconnaissance duties, and landing struts to facilitate emergency planetary landings or for planetary reconnaissance.</p>\n<p>As of 2371 only a single Defiant-class starship is in service (the prototype Defiant), but the team at Deep Space 9 have overcome many of the prototype&rsquo;s flaws, and several additional Defiant-class starships are under construction.</p>",
+    "crew": {
+      "value": 0,
+      "max": 3
+    },
+    "departments": {
+      "command": {
+        "label": "sta.actor.starship.department.command",
+        "value": "0",
+        "selected": true
+      },
+      "conn": {
+        "label": "sta.actor.starship.department.conn",
+        "value": "1",
+        "selected": false
+      },
+      "engineering": {
+        "label": "sta.actor.starship.department.engineering",
+        "value": "0",
+        "selected": false
+      },
+      "medicine": {
+        "label": "sta.actor.starship.department.medicine",
+        "value": "0",
+        "selected": false
+      },
+      "science": {
+        "label": "sta.actor.starship.department.science",
+        "value": "0",
+        "selected": false
+      },
+      "security": {
+        "label": "sta.actor.starship.department.security",
+        "value": "2",
+        "selected": false
+      }
+    },
+    "designation": "",
+    "missionprofile": "",
+    "power": {
+      "value": 10,
+      "max": 10
+    },
+    "refit": "",
+    "resistance": 5,
+    "scale": 3,
+    "shields": {
+      "value": 11,
+      "max": 11
+    },
+    "servicedate": "",
+    "spaceframe": "Defiant Class",
+    "systems": {
+      "communications": {
+        "label": "sta.actor.starship.system.communications",
+        "value": 9,
+        "selected": true,
+        "breaches": 0
+      },
+      "computers": {
+        "label": "sta.actor.starship.system.computers",
+        "value": 9,
+        "selected": false,
+        "breaches": 0
+      },
+      "engines": {
+        "label": "sta.actor.starship.system.engines",
+        "value": 10,
+        "selected": false,
+        "breaches": 0
+      },
+      "sensors": {
+        "label": "sta.actor.starship.system.sensors",
+        "value": 9,
+        "selected": false,
+        "breaches": 0
+      },
+      "structure": {
+        "label": "sta.actor.starship.system.structure",
+        "value": 9,
+        "selected": false,
+        "breaches": 0
+      },
+      "weapons": {
+        "label": "sta.actor.starship.system.weapons",
+        "value": 13,
+        "selected": false,
+        "breaches": 0
+      }
+    },
+    "traits": "Federation Starship"
+  },
+  "prototypeToken": {
+    "name": "Defiant",
+    "displayName": 30,
+    "actorLink": true,
+    "texture": {
+      "src": "modules/sta-compendia/assets/ships/starfleet/defiant-token.webp",
+      "scaleX": 0.6,
+      "scaleY": 0.6,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 2,
+    "height": 2,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "shields"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Ablative Armor",
+      "type": "talent",
+      "img": "modules/sta-compendia/assets/icons/talents-core/talent-structure.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.SmqbqxKpyf7uMq13"
+        }
+      },
+      "_id": "0NOipHZRlDFq1gLC",
+      "system": {
+        "description": "<p><strong>Requirements:</strong> 2371 or later</p>\n<p>The vessel&rsquo;s hull plating has an additional ablative layer that disintegrates slowly under extreme temperatures, such as those caused by energy weapons and torpedo blasts, dissipating the energy, and protecting the ship. This plating is replaced periodically. The ship&rsquo;s Resistance is increased by 2.</p>",
+        "talenttype": {
+          "typeenum": "general",
+          "description": "",
+          "minimum": 0
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "9PI5JN2B6J6t7h1h": 3,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666066810809,
+        "modifiedTime": 1666066810809,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_key": "!actors.items!45WxiLeykT5t2hyR.0NOipHZRlDFq1gLC"
+    },
+    {
+      "name": "Quantum Torpedos",
+      "type": "talent",
+      "img": "modules/sta-compendia/assets/icons/talents-core/talent-torpedo.svg",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.SmqbqxKpyf7uMq13"
+        }
+      },
+      "system": {
+        "description": "<p><strong>Requirements:</strong> 2371 or later</p>\n<p>The vessel has been equipped with the latest in ship-to-ship munitions: the quantum torpedoes. The ship has quantum torpedoes in addition to any other form of torpedo it carries.</p>",
+        "talenttype": {
+          "typeenum": "general",
+          "description": "science",
+          "minimum": 2
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666012257154,
+        "modifiedTime": 1666066821416,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "qWa8Dq7Fvd6uGakH",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!45WxiLeykT5t2hyR.qWa8Dq7Fvd6uGakH"
+    },
+    {
+      "name": "Phaser Arrays - Area (Scale 3)",
+      "type": "starshipweapon",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-phaser-array-area.svg",
+      "system": {
+        "description": "<p>Common to Starfleet and Cardassian vessels, phasers are a precise and adaptable weapon.</p>\n<p>Arrays are long strips of linked emitters that share a power feed, allowing the ship to fire from any point along the strip. This allows the ship to fire in multiple directions at once, or to adjust and fire on moving targets repeatedly in quick succession. Arrays have a Range category of Medium. Further, when declaring the target of an attack with an Array, the attacking character may choose to grant one of the Area or Spread effects to the attack.</p>\n<p><strong>Area:</strong> The attack affects a wider area, and can affect several targets at once. The attack automatically affects any vessel or damageable object within Contact of the initial target, and then one additional target within Close range of the initial target for each Effect rolled, starting with the next closest (as determined by the GM). If one or more Complications is rolled when using an Area attack, the GM may choose to use Complications to have an allied vessel or neutral bystander in the area affected by the attack. A target cannot be hit if it would have been more difficult to hit than the initial target.</p>\n<p><strong>Versatile 2:</strong> The attack gains 2 points of bonus Momentum if successful.</p>",
+        "damage": 3,
+        "range": "Medium",
+        "qualities": {
+          "area": true,
+          "spread": false,
+          "dampening": false,
+          "calibration": false,
+          "devastating": false,
+          "highyield": false,
+          "persistentx": 0,
+          "piercingx": 0,
+          "viciousx": 0,
+          "hiddenx": 0,
+          "versatilex": 2
+        },
+        "opportunity": null,
+        "escalation": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.Agl3skS4m8mLNckX"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666033815208,
+        "modifiedTime": 1666067001483,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "IMwzff7xqYgeu1f1",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!45WxiLeykT5t2hyR.IMwzff7xqYgeu1f1"
+    },
+    {
+      "name": "Phaser Arrays - Spread (Scale 3)",
+      "type": "starshipweapon",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-phaser-array-spread.svg",
+      "system": {
+        "description": "<p>Common to Starfleet and Cardassian vessels, phasers are a precise and adaptable weapon.</p>\n<p>Arrays are long strips of linked emitters that share a power feed, allowing the ship to fire from any point along the strip. This allows the ship to fire in multiple directions at once, or to adjust and fire on moving targets repeatedly in quick succession. Arrays have a Range category of Medium. Further, when declaring the target of an attack with an Array, the attacking character may choose to grant one of the Area or Spread effects to the attack.</p>\n<p><strong>Spread:</strong> The Attack inflicts additional damage elsewhere on the target. If one or more Effects is rolled, the Attack inflicts one additional hit to a random system (even if the Attack was targeting a specific system), which deals half the damage of the initial hit, rounding up, +1 for every Effect rolled after the first. This additional hit is resolved separately, and each hit against the target is reduced by Resistance, reduces Shields, and potentially causes Breaches, individually.</p>\n<p><strong>Versatile 2:</strong> The attack gains 2 points of bonus Momentum if successful.</p>",
+        "damage": 3,
+        "range": "Medium",
+        "qualities": {
+          "area": false,
+          "spread": true,
+          "dampening": false,
+          "calibration": false,
+          "devastating": false,
+          "highyield": false,
+          "persistentx": 0,
+          "piercingx": 0,
+          "viciousx": 0,
+          "hiddenx": 0,
+          "versatilex": 2
+        },
+        "opportunity": null,
+        "escalation": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.UaD8hDlxHbyOMB6l"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666033815208,
+        "modifiedTime": 1666067005106,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "62vIoR7yxafzvmgc",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!45WxiLeykT5t2hyR.62vIoR7yxafzvmgc"
+    },
+    {
+      "name": "Phaser Cannon (Scale 3)",
+      "type": "starshipweapon",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-phaser-cannon.svg",
+      "system": {
+        "description": "<p>Common to Starfleet and Cardassian vessels, phasers are a precise and adaptable weapon.</p>\n<p>Cannons are close range, rapid-firing weapons that project pulses or bolts of energy rather than consistent beams. These are inaccurate at longer ranges, but the volley of quick pulses can be devastating. Cannons have a Range category of Close, and increase the weapon&rsquo;s damage by +2 Challenge Dice.</p>\n<p><strong>Versatile 2:</strong> The attack gains 2 points of bonus Momentum if successful.</p>",
+        "damage": 5,
+        "range": "Close",
+        "qualities": {
+          "area": false,
+          "spread": false,
+          "dampening": false,
+          "calibration": false,
+          "devastating": false,
+          "highyield": false,
+          "persistentx": 0,
+          "piercingx": 0,
+          "viciousx": 0,
+          "hiddenx": 0,
+          "versatilex": 2
+        },
+        "opportunity": null,
+        "escalation": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.Aw3qGIJLWfAEHfqd"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666033815208,
+        "modifiedTime": 1666067015794,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "EW3QjhMEk8pmhn4U",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!45WxiLeykT5t2hyR.EW3QjhMEk8pmhn4U"
+    },
+    {
+      "name": "Photon Torpedo",
+      "type": "starshipweapon",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-photon-torpedo.svg",
+      "system": {
+        "description": "<p>Photon torpedoes use a simple payload of matter and anti-matter to create a large and devastating explosion. They&rsquo;re commonly used by many cultures, including the Klingons, the Cardassians, and the Federation. They have a base Damage of 3 Challenge Dice, with the High-Yield Quality.</p>\n<p><strong>High-Yield:</strong> The weapon inflicts massive damage to enemy vessels; if the Attack inflicts one or more Breaches to a system, it inflicts one additional Breach.</p>",
+        "damage": 3,
+        "range": "Long",
+        "qualities": {
+          "area": false,
+          "spread": false,
+          "dampening": false,
+          "calibration": false,
+          "devastating": false,
+          "highyield": true,
+          "persistentx": 0,
+          "piercingx": 0,
+          "viciousx": 0,
+          "hiddenx": 0,
+          "versatilex": 0
+        },
+        "opportunity": null,
+        "escalation": 1
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.NVp4iJi1YezyDpyi"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666034989668,
+        "modifiedTime": 1666067029507,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "yA4INAORBQxO0lmY",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!45WxiLeykT5t2hyR.yA4INAORBQxO0lmY"
+    },
+    {
+      "name": "Photon Torpedo Salvo",
+      "type": "starshipweapon",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-photon-torpedo-salvo.svg",
+      "system": {
+        "description": "<p>Photon torpedoes use a simple payload of matter and anti-matter to create a large and devastating explosion. They&rsquo;re commonly used by many cultures, including the Klingons, the Cardassians, and the Federation. They have a base Damage of 3 Challenge Dice, with the High-Yield Quality.</p>\n<p>Torpedoes may be fired in a salvo: a volley of several torpedoes, intended to have a much greater effect. Firing a salvo of torpedoes adds 2 Threat to the pool, along with the 1 point of Threat for a torpedo attack, for a total of 3 Threat. Firing a salvo of torpedoes adds +3 to Threat instead of +1, but it increases the attack&rsquo;s damage by +1 Challenge Die, and grants the Spread effect to the attack.</p>\n<p><strong>High-Yield:</strong> The weapon inflicts massive damage to enemy vessels; if the Attack inflicts one or more Breaches to a system, it inflicts one additional Breach.</p>\n<p><strong>Spread:</strong> The Attack inflicts additional damage elsewhere on the target. If one or more Effects is rolled, the Attack inflicts one additional hit to a random system (even if the Attack was targeting a specific system), which deals half the damage of the initial hit, rounding up, +1 for every Effect rolled after the first. This additional hit is resolved separately, and each hit against the target is reduced by Resistance, reduces Shields, and potentially causes Breaches, individually</p>",
+        "damage": 4,
+        "range": "Long",
+        "qualities": {
+          "area": false,
+          "spread": true,
+          "dampening": false,
+          "calibration": false,
+          "devastating": false,
+          "highyield": true,
+          "persistentx": 0,
+          "piercingx": 0,
+          "viciousx": 0,
+          "hiddenx": 0,
+          "versatilex": 0
+        },
+        "opportunity": null,
+        "escalation": 3
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.aa4EOtTZRT1285Zn"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666034989668,
+        "modifiedTime": 1666067030891,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "qNzAjNGYkTalCQbb",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!45WxiLeykT5t2hyR.qNzAjNGYkTalCQbb"
+    },
+    {
+      "name": "Quantum Torpedo",
+      "type": "starshipweapon",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-quantum-torpedo.svg",
+      "system": {
+        "description": "<p>Quantum torpedoes are a recent development by the Federation, though others have made similar developments. They&rsquo;re more powerful than photon torpedoes, though the way they achieve this is classified. They have a base Damage of 4 Challenge Dice Vicious 1, with the Calibration and High-Yield Qualities.</p>\n<p><strong>Calibration:</strong> The weapon requires careful calibration before firing. The weapon cannot be used to attack unless a <em>Prepare </em>Minor Action is performed during the same Turn.</p>\n<p><strong>High-Yield:</strong> The weapon inflicts massive damage to enemy vessels; if the Attack inflicts one or more Breaches to a system, it inflicts one additional Breach.</p>",
+        "damage": 4,
+        "range": "Long",
+        "qualities": {
+          "area": false,
+          "spread": false,
+          "dampening": false,
+          "calibration": true,
+          "devastating": false,
+          "highyield": true,
+          "persistentx": 0,
+          "piercingx": 0,
+          "viciousx": 1,
+          "hiddenx": 0,
+          "versatilex": 0
+        },
+        "opportunity": null,
+        "escalation": 1
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.t2b06rBd2Gfh26iO"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666034989668,
+        "modifiedTime": 1666067032586,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "H4wBQY6wD0Os7kuh",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!45WxiLeykT5t2hyR.H4wBQY6wD0Os7kuh"
+    },
+    {
+      "name": "Quantum Torpedo Salvo",
+      "type": "starshipweapon",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-quantum-torpedo-salvo.svg",
+      "system": {
+        "description": "<p>Quantum torpedoes are a recent development by the Federation, though others have made similar developments. They&rsquo;re more powerful than photon torpedoes, though the way they achieve this is classified. They have a base Damage of 4 Challenge Dice Vicious 1, with the Calibration and High-Yield Qualities.</p>\n<p>Torpedoes may be fired in a salvo: a volley of several torpedoes, intended to have a much greater effect. Firing a salvo of torpedoes adds 2 Threat to the pool, along with the 1 point of Threat for a torpedo attack, for a total of 3 Threat. Firing a salvo of torpedoes adds +3 to Threat instead of +1, but it increases the attack&rsquo;s damage by +1 Challenge Die, and grants the Spread effect to the attack.</p>\n<p><strong>Calibration:</strong> The weapon requires careful calibration before firing. The weapon cannot be used to attack unless a <em>Prepare </em>Minor Action is performed during the same Turn.</p>\n<p><strong>High-Yield:</strong> The weapon inflicts massive damage to enemy vessels; if the Attack inflicts one or more Breaches to a system, it inflicts one additional Breach.</p>\n<p><strong>Spread: </strong>The Attack inflicts additional damage elsewhere on the target. If one or more Effects is rolled, the Attack inflicts one additional hit to a random system (even if the Attack was targeting a specific system), which deals half the damage of the initial hit, rounding up, +1 for every Effect rolled after the first. This additional hit is resolved separately, and each hit against the target is reduced by Resistance, reduces Shields, and potentially causes Breaches, individually.</p>",
+        "damage": 5,
+        "range": "Long",
+        "qualities": {
+          "area": false,
+          "spread": true,
+          "dampening": false,
+          "calibration": true,
+          "devastating": false,
+          "highyield": true,
+          "persistentx": 0,
+          "piercingx": 0,
+          "viciousx": 1,
+          "hiddenx": 0,
+          "versatilex": 0
+        },
+        "opportunity": null,
+        "escalation": 3
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.FMX6ydaBlOlsloWe"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666034989668,
+        "modifiedTime": 1666067034507,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "E0gN8vfCauss6sCo",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!45WxiLeykT5t2hyR.E0gN8vfCauss6sCo"
+    },
+    {
+      "name": "Tractor Beam (Strength 2)",
+      "type": "item",
+      "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-tractor-beam.svg",
+      "system": {
+        "description": "<p>The tactical officer engages a tractor beam at a nearby object or vessel. This requires a <strong>Control + Security</strong> Task, assisted by the ship&rsquo;s <strong>Structure + Security</strong> with a Difficulty of 2, and can only be directed at a target within Close range. If successful, the target vessel is immobilized and cannot move unless it can break free, using their shield modulations, the raw power of their engines, or disabling the tractor beam emitter (a Task in its own right), with a Difficulty of 2.</p>",
+        "quantity": 1,
+        "opportunity": 0,
+        "escalation": 0
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.sta-compendia.starship-weapons-core.fk1X04dijE59ZTGF"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666040589732,
+        "modifiedTime": 1666067040620,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "XLF4BExXCOL53mLX",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "_key": "!actors.items!45WxiLeykT5t2hyR.XLF4BExXCOL53mLX"
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Actor.45WxiLeykT5t2hyR"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666066605772,
+    "modifiedTime": 1666108916385,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "45WxiLeykT5t2hyR",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!45WxiLeykT5t2hyR"
+}

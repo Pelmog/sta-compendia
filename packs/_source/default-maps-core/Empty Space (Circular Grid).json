@@ -1,0 +1,78 @@
+{
+  "name": "Empty Space (Circular Grid)",
+  "navigation": true,
+  "navOrder": 0,
+  "navName": "",
+  "background": {
+    "src": "modules/sta-compendia/assets/maps/empty-space-zones.webp",
+    "scaleX": 1,
+    "scaleY": 1,
+    "offsetX": 0,
+    "offsetY": 0,
+    "rotation": 0,
+    "tint": null
+  },
+  "foreground": null,
+  "foregroundElevation": 4,
+  "thumb": "worlds/sta-compendia-dev/assets/scenes/jIaN5RdeTxHyIlYP-thumb.webp",
+  "width": 3200,
+  "height": 3200,
+  "padding": 0,
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 0,
+    "size": 100,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 1,
+    "units": ""
+  },
+  "tokenVision": false,
+  "fogExploration": false,
+  "fogReset": 1660769143211,
+  "globalLight": false,
+  "globalLightThreshold": null,
+  "darkness": 0,
+  "fogOverlay": null,
+  "fogExploredColor": null,
+  "fogUnexploredColor": null,
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "notes": [],
+  "sounds": [],
+  "templates": [],
+  "tiles": [],
+  "walls": [],
+  "playlist": null,
+  "playlistSound": null,
+  "journal": null,
+  "journalEntryPage": null,
+  "weather": "",
+  "flags": {
+    "core": {
+      "sourceId": "Scene.jIaN5RdeTxHyIlYP"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666001774567,
+    "modifiedTime": 1676976764815,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "active": false,
+  "folder": null,
+  "sort": 0,
+  "_id": "BozEcJp5HvRbkOcD",
+  "_key": "!scenes!BozEcJp5HvRbkOcD"
+}

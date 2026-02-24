@@ -1,0 +1,29 @@
+{
+  "name": "Sensors (Impact)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-hit-sensors.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.w8zy5Lnk2BWpRMIi"
+    }
+  },
+  "_id": "pBLgluChBqLSr0wg",
+  "system": {
+    "description": "<p>Whenever the Sensors system suffers one or more Breaches, it disrupts those functions temporarily. Until the sensor operations officer performs the <em>Restore </em>Minor Action, no Task can be attempted which will use or be assisted by the ship&rsquo;s Sensors. Further, until that Minor Action is performed, all Attacks made by the ship increase in Difficulty by 1.</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666011175809,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!pBLgluChBqLSr0wg"
+}

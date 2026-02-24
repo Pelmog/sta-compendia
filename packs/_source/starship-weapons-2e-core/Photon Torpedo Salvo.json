@@ -1,0 +1,49 @@
+{
+  "_id": "9hd20RxQqprzFwLM",
+  "name": "Photon Torpedo Salvo",
+  "type": "starshipweapon2e",
+  "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-photon-torpedo-salvo.svg",
+  "system": {
+    "description": "<p>A volley of photon torpedoes, intended to have a much greater effect. Firing a salvo adds 3 Threat.</p>",
+    "damage": 3,
+    "range": "long",
+    "qualities": {
+      "energy": false,
+      "torpedo": false,
+      "area": false,
+      "calibration": false,
+      "cumbersome": false,
+      "dampening": false,
+      "depleting": false,
+      "devastating": false,
+      "highyield": true,
+      "intense": false,
+      "jamming": false,
+      "persistent": false,
+      "piercing": false,
+      "slowing": false,
+      "spread": true,
+      "hiddenx": 0,
+      "versatilex": 0
+    },
+    "includescale": "torpedo",
+    "opportunity": 0,
+    "escalation": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9hd20RxQqprzFwLM"
+}

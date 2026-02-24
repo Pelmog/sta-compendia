@@ -1,0 +1,28 @@
+{
+  "name": "Tractor Beam (Strength 1)",
+  "type": "item",
+  "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-tractor-beam.svg",
+  "system": {
+    "description": "<p>The tactical officer engages a tractor beam at a nearby object or vessel. This requires a <strong>Control + Security</strong> Task, assisted by the ship&rsquo;s <strong>Structure + Security</strong> with a Difficulty of 2, and can only be directed at a target within Close range. If successful, the target vessel is immobilized and cannot move unless it can break free, using their shield modulations, the raw power of their engines, or disabling the tractor beam emitter (a Task in its own right), with a Difficulty of 1.</p>",
+    "quantity": 1,
+    "opportunity": 0,
+    "escalation": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666040589732,
+    "modifiedTime": 1666040758870,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "NVwdpw79IoHNYHJi",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!NVwdpw79IoHNYHJi"
+}

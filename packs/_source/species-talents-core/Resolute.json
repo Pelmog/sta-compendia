@@ -1,0 +1,31 @@
+{
+  "name": "Resolute",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-human.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.VQi6g8zisbHZhd3n"
+    }
+  },
+  "_id": "7ScF7S6uhcqD2hS1",
+  "system": {
+    "description": "<p><strong>Requirement</strong>: Human, or Gamemaster&rsquo;s discretion.</p>\n<p>You are indomitable, and unwilling to succumb to adversity. You increase your maximum Stress by 3.</p>",
+    "talenttype": {
+      "typeenum": "species",
+      "description": "Human",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!7ScF7S6uhcqD2hS1"
+}

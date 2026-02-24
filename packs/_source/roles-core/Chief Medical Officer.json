@@ -1,0 +1,30 @@
+{
+  "name": "Chief Medical Officer",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/roles-core/role-chief-medical-officer.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Medical department only.</p>\n<p>The chief medical officer, also known as ship&rsquo;s surgeon, or ship&rsquo;s doctor, is responsible for the health and wellbeing of the crew and other persons aboard the ship, and leads the ship&rsquo;s medical department. A chief medical officer can order, and countermand the orders of, senior officers where matters of that officer&rsquo;s health are concerned.</p>\n<p>When aboard the ship, the chief medical officer always has the Advantage &ldquo;Medical Department&rdquo;, which represents the ship&rsquo;s medical personnel.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666004245223,
+    "modifiedTime": 1666006238619,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "HaRQ3mPdFPINU5SH",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!HaRQ3mPdFPINU5SH"
+}

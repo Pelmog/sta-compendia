@@ -1,0 +1,49 @@
+{
+  "_id": "4XGSlbhIVsFhjQWM",
+  "name": "Tractor Beam",
+  "type": "starshipweapon2e",
+  "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-tractor-beam.svg",
+  "system": {
+    "description": "<p>Tractor beams use focused graviton beams to hold or slow other vessels.</p>",
+    "damage": 0,
+    "range": "close",
+    "qualities": {
+      "energy": false,
+      "torpedo": false,
+      "area": false,
+      "calibration": false,
+      "cumbersome": false,
+      "dampening": false,
+      "depleting": false,
+      "devastating": false,
+      "highyield": false,
+      "intense": false,
+      "jamming": false,
+      "persistent": false,
+      "piercing": false,
+      "slowing": true,
+      "spread": false,
+      "hiddenx": 0,
+      "versatilex": 0
+    },
+    "includescale": "energy",
+    "opportunity": 0,
+    "escalation": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4XGSlbhIVsFhjQWM"
+}

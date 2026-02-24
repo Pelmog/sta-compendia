@@ -1,0 +1,31 @@
+{
+  "name": "Veteran",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-career-veteran.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.CsnEQRxKQIZUWq6f"
+    }
+  },
+  "_id": "zFifdCF214GOBTT7",
+  "system": {
+    "description": "<p><strong>Requirements</strong>: Veteran Officer</p>\n<p>The character is wise and experienced, and draws upon inner reserves of willpower and determination in a more measured and considered way. Whenever the character spends a point of Determination, roll 1 Challenge Die. If an Effect is rolled, immediately regain that spent point of Determination. The character has a rank of at least Lieutenant Commander.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!zFifdCF214GOBTT7"
+}

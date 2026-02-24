@@ -1,0 +1,49 @@
+{
+  "_id": "E8Pq2JY8tKJ4jhIa",
+  "name": "Phaser Type-1",
+  "type": "characterweapon",
+  "img": "modules/sta-compendia/assets/icons/weapons-core/phaser-type-1.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.T9q1uwp2uHaHX1Yf"
+    }
+  },
+  "system": {
+    "description": "<p><strong>Standard Issue</strong></p>\n<p>Phaser Type-1 is the smallest design of hand phaser, a tiny device a few centimeters long, which is the most widely-used form of phaser distributed to personnel for self-defense.</p>",
+    "damage": 2,
+    "range": "Ranged",
+    "hands": 1,
+    "qualities": {
+      "area": false,
+      "intense": false,
+      "knockdown": false,
+      "accurate": false,
+      "charge": true,
+      "cumbersome": false,
+      "deadly": false,
+      "debilitating": false,
+      "grenade": false,
+      "inaccurate": false,
+      "nonlethal": false,
+      "hiddenx": 1,
+      "piercingx": 0,
+      "viciousx": 0,
+      "opportunity": 0,
+      "escalation": 0
+    },
+    "opportunity": null,
+    "escalation": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!E8Pq2JY8tKJ4jhIa"
+}

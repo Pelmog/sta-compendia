@@ -1,0 +1,29 @@
+{
+  "name": "Weapons (Destroyed)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-destroyed-weapons.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.OMt2fYDWzIeOSaxF"
+    }
+  },
+  "_id": "ixmTWp7GRsDG7CIs",
+  "system": {
+    "description": "<p>If the total number of Breaches the Weapons system has suffered exceeds the ship&rsquo;s Scale, then the system has been Destroyed, and cannot be repaired. This is identical to the Disabled effect, but it cannot be repaired. Further, roll 1 Challenge Die if the ship fired any weapons during this Turn; if an Effect is rolled, then the ship suffers a single hit from the weapon used most recently, as energy weapons discharge unsafely or torpedoes detonate. Further hits to the Weapons System will affect the Sensors instead.</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666011674150,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!ixmTWp7GRsDG7CIs"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Technical Expertise",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-computers.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.9NodLzC8wnlVjvE8"
+    }
+  },
+  "_id": "ZlNEEAWL3q7QsSG8",
+  "system": {
+    "description": "<p><strong>Requirements</strong>: None</p>\n<p>Whenever you attempt a Task assisted by the ship&rsquo;s <strong>Computers </strong>or <strong>Sensors</strong>, you may re-roll one d20 (which may be the ship&rsquo;s die).</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!ZlNEEAWL3q7QsSG8"
+}

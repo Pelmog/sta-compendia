@@ -1,0 +1,78 @@
+{
+  "name": "Lifepath 4: Starfleet Academy",
+  "img": "modules/sta-compendia/assets/icons/plain-core/plain-academy.svg",
+  "description": "Rolls a random academy track for a player character.",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "2OM2oYH7nxna7ZjQ",
+      "text": "Command Track",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!JIbzWYcHz5otzZcT.2OM2oYH7nxna7ZjQ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "AjdQMxdrjvj9dVMW",
+      "text": "Operations Track",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!JIbzWYcHz5otzZcT.AjdQMxdrjvj9dVMW"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "XdeDgByRuKzd1SnM",
+      "text": "Science Track",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!JIbzWYcHz5otzZcT.XdeDgByRuKzd1SnM"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "RollTable.knPkipeRqRz3qzBU"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666031411138,
+    "modifiedTime": 1666119233229,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "JIbzWYcHz5otzZcT",
+  "_key": "!tables!JIbzWYcHz5otzZcT"
+}

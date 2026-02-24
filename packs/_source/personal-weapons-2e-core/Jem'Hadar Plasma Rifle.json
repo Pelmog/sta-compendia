@@ -1,0 +1,45 @@
+{
+  "_id": "6vT0q90KgKBPFOAw",
+  "name": "Jem'Hadar Plasma Rifle",
+  "type": "characterweapon2e",
+  "img": "modules/sta-compendia/assets/icons/weapons-core/jem'hadar-plasma-rifle.webp",
+  "system": {
+    "description": "",
+    "damage": 5,
+    "range": "ranged",
+    "hands": 2,
+    "severity": 0,
+    "opportunity": 0,
+    "escalation": 0,
+    "qualities": {
+      "deadly": true,
+      "stun": false,
+      "accurate": true,
+      "area": false,
+      "charge": false,
+      "cumbersome": false,
+      "debilitating": false,
+      "grenade": false,
+      "inaccurate": false,
+      "intense": false,
+      "piercingx": false,
+      "hiddenx": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6vT0q90KgKBPFOAw"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Testing a Theory",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-operations.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.s3tghQLE1U2I69V2"
+    }
+  },
+  "_id": "XJN3BslqUgPRPSOL",
+  "system": {
+    "description": "<p><strong>Requirement</strong>: Engineering 2+ or Sciences 2+</p>\n<p>When you attempt a Task using <strong>Engineering </strong>or <strong>Science</strong>, you may roll one additional d20, so long as you succeeded at a previous Task covering the same scientific or technological field earlier in the same adventure.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "engineering",
+      "minimum": 2
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!XJN3BslqUgPRPSOL"
+}

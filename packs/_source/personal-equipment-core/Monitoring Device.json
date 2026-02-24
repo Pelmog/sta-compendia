@@ -1,0 +1,28 @@
+{
+  "name": "Monitoring Device",
+  "type": "item",
+  "img": "modules/sta-compendia/assets/icons/items-core/placeholder.webp",
+  "system": {
+    "description": "<p><strong>Opportunity 1</strong></p>\n<p>The heartbeat reader is a small device that can connect to a medical tricorder or a sick bay bio-bed. This device, placed on the patient, is able to scan a life-form, determine the function of a single vital organ or biological function, and what the physiology of the life-form suggests are normal readings for that organ or function.</p>",
+    "quantity": 1,
+    "opportunity": 1,
+    "escalation": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666008738052,
+    "modifiedTime": 1666027563553,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "ZYEW0NO4PM09Awp9",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ZYEW0NO4PM09Awp9"
+}

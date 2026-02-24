@@ -1,0 +1,126 @@
+{
+  "name": "Lifepath 1: Random Species (The Original Series)",
+  "img": "modules/sta-compendia/assets/icons/plain-core/plain-career-young.svg",
+  "description": "Rolls a random playable species appropriate for the mid-23nd century era of \"Star Trek: The Original Series\".",
+  "results": [
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "text": "Andorian",
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "sta-compendia.playable-species-core",
+      "documentId": "sil5Jw4x14VUuQ43",
+      "_id": "nBSUxxhVOHyaXj1f",
+      "flags": {},
+      "_key": "!tables.results!ijPLC6rwjpQ6W8xq.nBSUxxhVOHyaXj1f"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "text": "Denobulan",
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "sta-compendia.playable-species-core",
+      "documentId": "sG5HrEknva6YKg9s",
+      "_id": "MaxRAqzogvlZ3T9k",
+      "flags": {},
+      "_key": "!tables.results!ijPLC6rwjpQ6W8xq.MaxRAqzogvlZ3T9k"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        5,
+        14
+      ],
+      "drawn": false,
+      "text": "Human",
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "sta-compendia.playable-species-core",
+      "documentId": "TMdKQrtijCM6OpUl",
+      "_id": "AUAEwZgp5bh1qTvd",
+      "flags": {},
+      "_key": "!tables.results!ijPLC6rwjpQ6W8xq.AUAEwZgp5bh1qTvd"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        15,
+        16
+      ],
+      "drawn": false,
+      "text": "Tellarite",
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "sta-compendia.playable-species-core",
+      "documentId": "p8oOfmUoVgzKg9D4",
+      "_id": "Js7PBjVfzcXRkvXt",
+      "flags": {},
+      "_key": "!tables.results!ijPLC6rwjpQ6W8xq.Js7PBjVfzcXRkvXt"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "text": "Trill",
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "sta-compendia.playable-species-core",
+      "documentId": "FBF4jshFMMZGGMm3",
+      "_id": "aXwEYN7iT6LQX52X",
+      "flags": {},
+      "_key": "!tables.results!ijPLC6rwjpQ6W8xq.aXwEYN7iT6LQX52X"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "text": "Vulcan",
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "sta-compendia.playable-species-core",
+      "documentId": "3xqHCdPKjQwI3JfK",
+      "_id": "chNJeE9P7fj5AB1x",
+      "flags": {},
+      "_key": "!tables.results!ijPLC6rwjpQ6W8xq.chNJeE9P7fj5AB1x"
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "RollTable.ZeQ1lce6vHcEVyxR"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666028243858,
+    "modifiedTime": 1666119227710,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "ijPLC6rwjpQ6W8xq",
+  "_key": "!tables!ijPLC6rwjpQ6W8xq"
+}

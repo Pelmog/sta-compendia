@@ -1,0 +1,49 @@
+{
+  "_id": "IqU4vzrHf5amb7Vl",
+  "name": "Phaser Cannon",
+  "type": "starshipweapon2e",
+  "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-phaser-cannon.svg",
+  "system": {
+    "description": "<p>Common to Starfleet vessels, phasers are a precise and adaptable weapon.</p><p>Cannons are close range, rapid-firing weapons that project pulses or bolts of energy rather than consistent beams. These are inaccurate at longer ranges, but devastating up close.</p>",
+    "damage": 2,
+    "range": "close",
+    "qualities": {
+      "energy": false,
+      "torpedo": false,
+      "area": false,
+      "calibration": false,
+      "cumbersome": false,
+      "dampening": false,
+      "depleting": false,
+      "devastating": true,
+      "highyield": false,
+      "intense": false,
+      "jamming": false,
+      "persistent": false,
+      "piercing": false,
+      "slowing": false,
+      "spread": false,
+      "hiddenx": 0,
+      "versatilex": 0
+    },
+    "includescale": "energy",
+    "opportunity": 0,
+    "escalation": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IqU4vzrHf5amb7Vl"
+}

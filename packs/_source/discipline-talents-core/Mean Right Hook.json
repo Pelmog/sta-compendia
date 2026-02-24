@@ -1,0 +1,31 @@
+{
+  "name": "Mean Right Hook",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-security.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.6VnuyOC4r2Npbm0N"
+    }
+  },
+  "_id": "pTz6wSa0fqF6U1LC",
+  "system": {
+    "description": "<p><strong>Requirement</strong>: None</p>\n<p>Your Unarmed Strike Attack has the Vicious 1 Damage Effect.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "security",
+      "minimum": 3
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!pTz6wSa0fqF6U1LC"
+}

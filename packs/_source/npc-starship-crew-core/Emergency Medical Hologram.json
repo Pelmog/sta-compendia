@@ -1,0 +1,265 @@
+{
+  "name": "Emergency Medical Hologram",
+  "type": "character",
+  "img": "modules/sta-compendia/assets/icons/plain-core/plain-medical.svg",
+  "system": {
+    "notes": "<p>This profile represents a Mark I Emergency Medical Hologram, an acerbic and ill-tempered program often disliked by the crews serving alongside them.</p>",
+    "assignment": "",
+    "attributes": {
+      "control": {
+        "label": "sta.actor.character.attribute.control",
+        "value": "10",
+        "selected": true
+      },
+      "daring": {
+        "label": "sta.actor.character.attribute.daring",
+        "value": "9",
+        "selected": false
+      },
+      "fitness": {
+        "label": "sta.actor.character.attribute.fitness",
+        "value": "8",
+        "selected": false
+      },
+      "insight": {
+        "label": "sta.actor.character.attribute.insight",
+        "value": "8",
+        "selected": false
+      },
+      "presence": {
+        "label": "sta.actor.character.attribute.presence",
+        "value": "7",
+        "selected": false
+      },
+      "reason": {
+        "label": "sta.actor.character.attribute.reason",
+        "value": "9",
+        "selected": false
+      }
+    },
+    "determination": {
+      "value": 0,
+      "max": 3
+    },
+    "disciplines": {
+      "command": {
+        "label": "sta.actor.character.discipline.command",
+        "value": "1",
+        "selected": true
+      },
+      "conn": {
+        "label": "sta.actor.character.discipline.conn",
+        "value": "2",
+        "selected": false
+      },
+      "engineering": {
+        "label": "sta.actor.character.discipline.engineering",
+        "value": "2",
+        "selected": false
+      },
+      "medicine": {
+        "label": "sta.actor.character.discipline.medicine",
+        "value": "4",
+        "selected": false
+      },
+      "science": {
+        "label": "sta.actor.character.discipline.science",
+        "value": "3",
+        "selected": false
+      },
+      "security": {
+        "label": "sta.actor.character.discipline.security",
+        "value": "1",
+        "selected": false
+      }
+    },
+    "environment": "",
+    "milestones": "",
+    "rank": "",
+    "reputation": null,
+    "species": "Hologram",
+    "stress": {
+      "value": 9,
+      "max": 9
+    },
+    "upbringing": "",
+    "traits": "Hologram"
+  },
+  "prototypeToken": {
+    "name": "Emergency Medical Hologram",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/sta-compendia/assets/icons/plain-core/plain-medical.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stress"
+    },
+    "bar2": {
+      "attribute": "determination"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "AXOJN4d1j2DyoR8r",
+      "name": "Emergency Medicine",
+      "type": "focus",
+      "img": "modules/sta-compendia/assets/icons/focuses-core/focus-medical.svg",
+      "system": {
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.wLT1UAAnTNDfezVa"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666012825052,
+        "modifiedTime": 1666012869834,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "UVXDEWKOnm1KYZlz",
+      "_key": "!actors.items!ErwQUr4cEMusy8eT.UVXDEWKOnm1KYZlz"
+    },
+    {
+      "folder": "AXOJN4d1j2DyoR8r",
+      "name": "Surgery",
+      "type": "focus",
+      "img": "modules/sta-compendia/assets/icons/focuses-core/focus-medical.svg",
+      "system": {
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.49GmRZIZB3mwnwcl"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666012825052,
+        "modifiedTime": 1666012871657,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "FV5IHeiYJCLm9jmS",
+      "_key": "!actors.items!ErwQUr4cEMusy8eT.FV5IHeiYJCLm9jmS"
+    },
+    {
+      "folder": "AXOJN4d1j2DyoR8r",
+      "name": "Xenobiology",
+      "type": "focus",
+      "img": "modules/sta-compendia/assets/icons/focuses-core/focus-science.svg",
+      "system": {
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.udLjuGkm4hNLt3gX"
+        }
+      },
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666012825052,
+        "modifiedTime": 1666012873112,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_id": "aqMZNagrKRfsvNP0",
+      "_key": "!actors.items!ErwQUr4cEMusy8eT.aqMZNagrKRfsvNP0"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Actor.r0DYCajF7TotOgxF"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666012729554,
+    "modifiedTime": 1676966843685,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "ErwQUr4cEMusy8eT",
+  "_key": "!actors!ErwQUr4cEMusy8eT"
+}

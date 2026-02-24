@@ -1,0 +1,31 @@
+{
+  "name": "Precise Evasion",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-conn.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.tIR0iwny4ZvJqGff"
+    }
+  },
+  "_id": "qQul9oQyhRWzHEvZ",
+  "system": {
+    "description": "<p><strong>Requirement</strong>: Conn 4+</p>\n<p>Whenever you succeed at the Evasive Action Task, you may spend two Momentum. If you do, the ship does not suffer the increased Difficulty for attacks normally caused by Evasive Action.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "conn",
+      "minimum": 4
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!qQul9oQyhRWzHEvZ"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Pulse Grenade",
+  "type": "characterweapon",
+  "img": "modules/sta-compendia/assets/icons/weapons-core/pulse-grenade.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.u7e7WFbfRKHaKsbC"
+    }
+  },
+  "_id": "Ui2Z1DPW1VLEu7hc",
+  "system": {
+    "description": "<p><strong>Pulse Grenades</strong> work on a similar principle to hand phasers. The user selects a setting and a countdown timer. When the timer reaches zero, the grenade discharges its power cell at once in all directions. After discharge, the grenade&rsquo;s components burn out, rendering them inert to prevent them being reused. Pulse grenades cover a number of similar technologies used throughout Starfleet&rsquo;s history &mdash; from the stun grenades used by United Earth MACO forces, to photon grenades employed in the 24th century.</p>\n<p>The weapon is a throwable explosive or energetic device, normally carried in small quantities. It cannot be used to make attacks against an enemy at Long or Extreme range. A character with a Grenade weapon has sufficient grenades to make three attacks with it during a scene.</p>",
+    "damage": 4,
+    "range": "Ranged",
+    "hands": 1,
+    "qualities": {
+      "area": true,
+      "intense": false,
+      "knockdown": false,
+      "accurate": false,
+      "charge": true,
+      "cumbersome": false,
+      "deadly": false,
+      "debilitating": false,
+      "grenade": true,
+      "inaccurate": false,
+      "nonlethal": false,
+      "hiddenx": 0,
+      "piercingx": 0,
+      "viciousx": 1,
+      "opportunity": 0,
+      "escalation": 0
+    },
+    "opportunity": 1,
+    "escalation": 2
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666128334302,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!Ui2Z1DPW1VLEu7hc"
+}

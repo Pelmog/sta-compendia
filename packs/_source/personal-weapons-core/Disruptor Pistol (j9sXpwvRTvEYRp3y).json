@@ -1,0 +1,52 @@
+{
+  "name": "Disruptor Pistol",
+  "type": "characterweapon",
+  "img": "modules/sta-compendia/assets/icons/weapons-core/klingon-disruptor-pistol.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.bmBtiVSrHcFb6gCA"
+    }
+  },
+  "system": {
+    "description": "<p>Disruptor weapons rely on extremely high energy particle discharges that will burn or boil targets at the lowest settings, and can disintegrate a target if enough energy is applied.</p>",
+    "damage": 3,
+    "range": "Nahkampf",
+    "hands": 1,
+    "qualities": {
+      "area": false,
+      "intense": false,
+      "knockdown": false,
+      "accurate": false,
+      "charge": false,
+      "cumbersome": false,
+      "deadly": false,
+      "debilitating": false,
+      "grenade": false,
+      "inaccurate": false,
+      "nonlethal": false,
+      "hiddenx": 0,
+      "piercingx": 0,
+      "viciousx": 1,
+      "opportunity": 0,
+      "escalation": 0
+    },
+    "opportunity": null,
+    "escalation": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1677262019406,
+    "modifiedTime": 1677262062806,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "j9sXpwvRTvEYRp3y",
+  "_key": "!items!j9sXpwvRTvEYRp3y"
+}

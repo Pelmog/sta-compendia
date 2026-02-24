@@ -1,0 +1,31 @@
+{
+  "name": "First Response",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-medical.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.uomm13KvBFi66pW7"
+    }
+  },
+  "_id": "OoUEwZAb4xUJsTDx",
+  "system": {
+    "description": "<p><strong>REQUIREMENT</strong>: Medicine 3+</p>\n<p>Whenever you attempt the First Aid Task during combat, you gain a bonus d20. Further, you may always Succeed at a Cost, with each Complication you suffer adding +1 to the Difficulty of healing the patient&rsquo;s Injury subsequently.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "medicine",
+      "minimum": 3
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!OoUEwZAb4xUJsTDx"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Push The Limits",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-conn.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.cPeySWTvQWdEEaLn"
+    }
+  },
+  "_id": "afr0WMi1lROXQITW",
+  "system": {
+    "description": "<p><strong>Requirement</strong>: Conn 4+</p>\n<p>When you attempt a <strong>Conn</strong> Task that has increased in Difficulty due to environmental conditions or damage to the engines, reduce the Difficulty by 1, to a minimum of 1.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "conn",
+      "minimum": 4
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!afr0WMi1lROXQITW"
+}

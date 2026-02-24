@@ -1,0 +1,29 @@
+{
+  "name": "Spatial Phenomena",
+  "type": "focus",
+  "img": "modules/sta-compendia/assets/icons/focuses-core/focus-science.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.udLjuGkm4hNLt3gX"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666012825052,
+    "modifiedTime": 1666017600196,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "47Z44deihWfzPARV",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!47Z44deihWfzPARV"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Communications (Disabled)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-disabled-comms.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.wFj0CiHN5hw58IBy"
+    }
+  },
+  "_id": "NNLuNscnCSHeFfAU",
+  "system": {
+    "description": "<p>If the total number of Breaches the Communications System has suffered is equal to the Scale of the ship, then the system has been Disabled. The Communications system cannot be used to perform or assist any Tasks, and communicating over distances greater than a few kilometers (Close range), using other subspace radios, etc. The Difficulty to repair this is 4, though at the Gamemaster&rsquo;s discretion this may be replaced with an Extended Task (Work 8, Magnitude 2, Resistance 0, base Difficulty 2).</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666010963151,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!NNLuNscnCSHeFfAU"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Nerve Pinch",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-vulcan.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.ciP8l6TpILKPjJLj"
+    }
+  },
+  "system": {
+    "description": "<p><strong>Requirement</strong>: Vulcan, or Gamemaster&rsquo;s permission.</p>\n<p>You have learned numerous techniques for the stimulation and control of nerve impulses &mdash; collectively called neuropressure. Some applications of neuropressure can be used to swiftly and non-lethally incapacitate assailants. The nerve pinch counts as a melee weapon with 1 Challenge Die, Size 1H, and the Intense and Non-lethal qualities. You may use Science or Medicine instead of Security when attempting a nerve pinch Attack, and may increase damage by your Science or Medicine Discipline instead of Security</p>",
+    "talenttype": {
+      "typeenum": "species",
+      "description": "Vulcan",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666030060379,
+    "modifiedTime": 1666030312162,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "MuGQY6cJH3jtDFJA",
+  "_key": "!items!MuGQY6cJH3jtDFJA"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "ybaMW1ByRSFENi3U",
+  "name": "Disruptor Rifle",
+  "type": "characterweapon",
+  "img": "modules/sta-compendia/assets/icons/weapons-core/romulan-disruptor-rifle.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bmBtiVSrHcFb6gCA"
+    }
+  },
+  "system": {
+    "description": "<p>Disruptor weapons rely on extremely high energy particle discharges that will burn or boil targets at the lowest settings, and can disintegrate a target if enough energy is applied.</p>",
+    "damage": 4,
+    "range": "Ranged",
+    "hands": 2,
+    "qualities": {
+      "area": false,
+      "intense": false,
+      "knockdown": false,
+      "accurate": true,
+      "charge": false,
+      "cumbersome": false,
+      "deadly": false,
+      "debilitating": false,
+      "grenade": false,
+      "inaccurate": false,
+      "nonlethal": false,
+      "hiddenx": 0,
+      "piercingx": 0,
+      "viciousx": 1,
+      "opportunity": 0,
+      "escalation": 0
+    },
+    "opportunity": null,
+    "escalation": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!ybaMW1ByRSFENi3U"
+}

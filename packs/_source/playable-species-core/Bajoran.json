@@ -1,0 +1,52 @@
+{
+  "name": "Bajoran",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Bajoran",
+      "type": "text",
+      "_id": "TtvsXY37zZTysXz9",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<img style=\"display:block;margin:0px auto\" src=\"modules/sta-compendia/assets/icons/plain-core/plain-bajoran.svg\" width=\"256\" height=\"256\" /><p><strong>Requirements:</strong> The Next Generation era only</p><p>A spiritual, dauntless people from the planet Bajor, the Bajorans have lost much after decades of occupation by the Cardassian Union. Many Bajorans were scattered across the Alpha Quadrant during the occupation, while those who remained on Bajor often acted as insurgents or toiled in labor camps under Cardassian rule. The occupation ended a few years ago, but the scars it left will take generations to heal. Bajor is not a member of the Federation, but many Bajorans scattered by the diaspora have found their way into Starfleet. Bajoran culture places a strong belief in the Prophets, celestial beings who are said to have watched over Bajor for millennia; modern religious doctrine states that the Bajoran Wormhole is the Prophets’ Celestial Temple.</p><p><strong>Example Value:</strong> @UUID[Compendium.sta-compendia.values-core.J8UiDmD9608lhHfZ]{Faith in the Prophets}</p><ul><li><p><strong>Attributes:</strong> +1 Control, +1 Daring, +1 Insight</p></li><li><p><strong>Trait:</strong> Bajoran. For obvious reasons, Bajorans tend to be hostile towards Cardassians, and resentful of those who are dismissive of, or turned a blind eye to, the suffering of the Bajoran people. While not all Bajorans are spiritual or religious to the same degree, most have a cultural understanding of the Prophets’ place in Bajoran society.</p></li><li><p><strong>Talents:</strong> The character receives access to the following talents:</p><ul><li><p>@UUID[Compendium.sta-compendia.species-talents-core.I131lVQRIUaE4Hqp]{Orb Experience}</p></li><li><p>@UUID[Compendium.sta-compendia.species-talents-core.92O6cedMkmGgCRdT]{Strong Pagh}</p></li></ul></li></ul>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0QU5mv0fOR8aWo8Z.TtvsXY37zZTysXz9"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "JournalEntry.3zABYW9cTxcKfVxv"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666028420060,
+    "modifiedTime": 1666030977670,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "0QU5mv0fOR8aWo8Z",
+  "_key": "!journal!0QU5mv0fOR8aWo8Z"
+}

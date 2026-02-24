@@ -1,0 +1,29 @@
+{
+  "name": "Communications (Impact)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-hit-comms.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.rtnkmxbCwloPJywP"
+    }
+  },
+  "_id": "bnLXKiaYMfYizFNW",
+  "system": {
+    "description": "<p>Whenever the Communications system suffers one or more Breaches, it disrupts those functions temporarily. Until the communications officer performs the <em>Restore </em>Minor Action, the Communications System cannot be used to perform or assist any Tasks; additionally, any ongoing or persistent activities that require Communications Systems &mdash; such as transferring information over multiple rounds &mdash; are immediately halted, and cannot be resumed until that <em>Restore </em>Minor Action has been performed.</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666010818207,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!bnLXKiaYMfYizFNW"
+}

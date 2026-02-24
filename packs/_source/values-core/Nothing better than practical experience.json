@@ -1,0 +1,23 @@
+{
+  "_id": "3SuiCfystHz0ai2l",
+  "name": "Nothing better than practical experience",
+  "type": "value",
+  "img": "modules/sta-compendia/assets/icons/values-core/value-knowledge.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": "",
+    "used": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!3SuiCfystHz0ai2l"
+}

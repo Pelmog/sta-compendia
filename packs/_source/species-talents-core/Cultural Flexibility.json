@@ -1,0 +1,31 @@
+{
+  "name": "Cultural Flexibility",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-denobulan.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.ciP8l6TpILKPjJLj"
+    }
+  },
+  "_id": "godU2ajhoizwZhSU",
+  "system": {
+    "description": "<p><strong>Requirement</strong>: Denobulan, or Gamemaster&rsquo;s permission.</p>\n<p>Your people are friendly, patient, and inquisitive, and you exemplify these traits. You are at ease when meeting new cultures, and adapt to unfamiliar social structures easily. When you attempt a Task to learn about an unfamiliar culture, or to act in an appropriate manner when interacting with members of such a culture, you reduce the Difficulty by 1.</p>",
+    "talenttype": {
+      "typeenum": "species",
+      "description": "Denobulan",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!godU2ajhoizwZhSU"
+}

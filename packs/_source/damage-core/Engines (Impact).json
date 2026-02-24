@@ -1,0 +1,29 @@
+{
+  "name": "Engines (Impact)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-hit-engines.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.7GMQ3Q7U790p3ddU"
+    }
+  },
+  "_id": "aC7sTtfWayRI7QRK",
+  "system": {
+    "description": "<p>Whenever the Engines system suffers one or more Breaches, it disrupts those functions temporarily. The ship loses 2 Power immediately. Further, until the internal systems officer (or someone in engineering) performs the <em>Restore </em>Minor Action, all Tasks assisted by the ship&rsquo;s Engines, or which have a Power requirement, increase in both Difficulty and Complication Range by 1.</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666010619493,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!aC7sTtfWayRI7QRK"
+}

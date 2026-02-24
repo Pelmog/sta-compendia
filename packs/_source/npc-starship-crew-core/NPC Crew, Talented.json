@@ -1,0 +1,201 @@
+{
+  "name": "NPC Crew, Talented",
+  "type": "character",
+  "img": "modules/sta-compendia/assets/icons/tokens-core/enemy-alpha-token.svg",
+  "system": {
+    "notes": "<p>NPC crew are always considered to have an applicable Focus.</p>\n<p>Because individual NPC crew are not being tracked, each NPC ship takes multiple Turns during each Round &mdash; one Turn for each point of Scale the ship has &mdash; representing the individual actions of that ship&rsquo;s crew. However, each Task attempted after the first during each Round from any single role increases in Difficulty by 1.</p>",
+    "assignment": "",
+    "attributes": {
+      "control": {
+        "label": "sta.actor.character.attribute.control",
+        "value": "10",
+        "selected": true
+      },
+      "daring": {
+        "label": "sta.actor.character.attribute.daring",
+        "value": "10",
+        "selected": false
+      },
+      "fitness": {
+        "label": "sta.actor.character.attribute.fitness",
+        "value": "10",
+        "selected": false
+      },
+      "insight": {
+        "label": "sta.actor.character.attribute.insight",
+        "value": "10",
+        "selected": false
+      },
+      "presence": {
+        "label": "sta.actor.character.attribute.presence",
+        "value": "10",
+        "selected": false
+      },
+      "reason": {
+        "label": "sta.actor.character.attribute.reason",
+        "value": "10",
+        "selected": false
+      }
+    },
+    "determination": {
+      "value": 0,
+      "max": 3
+    },
+    "disciplines": {
+      "command": {
+        "label": "sta.actor.character.discipline.command",
+        "value": "3",
+        "selected": true
+      },
+      "conn": {
+        "label": "sta.actor.character.discipline.conn",
+        "value": "3",
+        "selected": false
+      },
+      "engineering": {
+        "label": "sta.actor.character.discipline.engineering",
+        "value": "3",
+        "selected": false
+      },
+      "medicine": {
+        "label": "sta.actor.character.discipline.medicine",
+        "value": "3",
+        "selected": false
+      },
+      "science": {
+        "label": "sta.actor.character.discipline.science",
+        "value": "3",
+        "selected": false
+      },
+      "security": {
+        "label": "sta.actor.character.discipline.security",
+        "value": "3",
+        "selected": false
+      }
+    },
+    "environment": "",
+    "milestones": "",
+    "rank": "",
+    "reputation": null,
+    "species": "",
+    "stress": {
+      "value": 0,
+      "max": 13
+    },
+    "upbringing": "",
+    "traits": ""
+  },
+  "prototypeToken": {
+    "name": "Talented NPC Crew",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/sta-compendia/assets/icons/tokens-core/enemy-alpha-token.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "stress"
+    },
+    "bar2": {
+      "attribute": "determination"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Focus for All Tasks",
+      "type": "focus",
+      "img": "modules/sta-compendia/assets/icons/focuses-core/focus-custom.svg",
+      "system": {
+        "description": ""
+      },
+      "_id": "3KaeNwZfnwDiWvB9",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b3MVB0kAwuP1VMcv": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "sta",
+        "systemVersion": "2.5.1",
+        "coreVersion": "13.351",
+        "createdTime": 1676971842713,
+        "modifiedTime": 1676971917569,
+        "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+      },
+      "_key": "!actors.items!IElFtYv4oYakHMxE.3KaeNwZfnwDiWvB9"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Actor.szzWu2jBwDgya1Jg"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1676967036807,
+    "modifiedTime": 1676976878284,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "IElFtYv4oYakHMxE",
+  "_key": "!actors!IElFtYv4oYakHMxE"
+}

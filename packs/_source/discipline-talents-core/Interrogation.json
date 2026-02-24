@@ -1,0 +1,31 @@
+{
+  "name": "Interrogation",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-security.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.UISMhG9zIOQWUDll"
+    }
+  },
+  "_id": "0b4Sf9x69d7dfkq9",
+  "system": {
+    "description": "<p><strong>Requirement:</strong> Security 3+</p>\n<p>When you succeed at a Task to coerce someone to reveal information in a social conflict, you will gain one bonus Momentum, which may only be spent on the Obtain Information Momentum Spend.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "security",
+      "minimum": 3
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!0b4Sf9x69d7dfkq9"
+}

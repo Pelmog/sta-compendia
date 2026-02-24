@@ -1,0 +1,31 @@
+{
+  "_id": "MlGPqf4xP5MB8dx6",
+  "name": "Proud and Honorable",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-andorian.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.3wGbpzXF9nwJ6fs5"
+    }
+  },
+  "system": {
+    "description": "<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><strong>Requirement</strong></span></span><span class=\"fontstyle2\"><span class=\"fontstyle0\"><strong>:</strong> </span><span class=\"fontstyle2\">Andorian, or Gamemaster&rsquo;s permission.</span></span></p>\n<p><span class=\"fontstyle2\">Your personal integrity is unimpeachable, and you will not willingly break a promise made. Whenever you attempt a Task to resist being coerced into breaking a promise, betraying your allies, or otherwise acting dishonorably, you reduce the Difficulty by 1.</span></p>",
+    "talenttype": {
+      "typeenum": "species",
+      "description": "Andorian",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!MlGPqf4xP5MB8dx6"
+}

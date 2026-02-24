@@ -1,0 +1,34 @@
+{
+  "name": "Improved Impulse Drive",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-engines.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.TrdLLSv5Jodf0UHt"
+    }
+  },
+  "_id": "BiMiUp6M4bOzsUkX",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> None</p>\n<p>The ship&rsquo;s Impulse drives are more powerful than on most ships, allowing the ship to accelerate much more quickly. When the flight controller succeeds at the <em>Impulse</em>, <em>Attack Pattern</em>, <em>Evasive Action</em>, or <em>Ramming Speed</em> Tasks, they may spend 2 Momentum to increase the Difficulty of attacks against the ship by 1 until the start of the flight controller&rsquo;s next Turn, due to the ship&rsquo;s rapid acceleration.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666012152253,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!BiMiUp6M4bOzsUkX"
+}

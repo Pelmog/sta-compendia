@@ -1,0 +1,34 @@
+{
+  "name": "Fast Targeting Systems",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-security.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.SmqbqxKpyf7uMq13"
+    }
+  },
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Security 3+</p>\n<p>The ship&rsquo;s targeting systems can lock weapons on target much faster and more accurately than other ships of its class, giving it an edge in battle. The ship does not suffer the normal Difficulty increase for targeting a specific System on the enemy ship.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "security",
+      "minimum": 3
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666012257154,
+    "modifiedTime": 1666013815565,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "xaPhFH3hTcn2LHfP",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!xaPhFH3hTcn2LHfP"
+}

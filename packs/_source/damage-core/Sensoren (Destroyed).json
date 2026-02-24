@@ -1,0 +1,29 @@
+{
+  "name": "Sensoren (Destroyed)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-destroyed-sensors.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bdZzDUfcPDY7MBbq"
+    }
+  },
+  "_id": "I36aHKnq8ohw8Kmt",
+  "system": {
+    "description": "<p>If the total number of Breaches the Sensors System has suffered exceeds the ship&rsquo;s Scale, then the System has been Destroyed, and cannot be repaired. This is identical to the Disabled effect, but it cannot be repaired. Further hits on the Sensors System damage the Weapons System instead.</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666011165281,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!I36aHKnq8ohw8Kmt"
+}

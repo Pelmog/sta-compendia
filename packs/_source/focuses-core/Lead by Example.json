@@ -1,0 +1,29 @@
+{
+  "name": "Lead by Example",
+  "type": "focus",
+  "img": "modules/sta-compendia/assets/icons/focuses-core/focus-command.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.udLjuGkm4hNLt3gX"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666012825052,
+    "modifiedTime": 1666017600201,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "fI8RhUWIpuo3uzNu",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!fI8RhUWIpuo3uzNu"
+}

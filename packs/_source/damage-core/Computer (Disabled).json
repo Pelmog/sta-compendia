@@ -1,0 +1,29 @@
+{
+  "name": "Computer (Disabled)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-disabled-computers.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.uLrUIjQnph9slGkB"
+    }
+  },
+  "_id": "efWb3Q6lfjSkmCAt",
+  "system": {
+    "description": "<p>If the total number of Breaches the Computers system has suffered is equal to the Scale of the ship, then the system has been Disabled. The Computers System cannot be used to perform or assist any Tasks, and the loss of automation increases the Complication range of all Tasks assisted by the ship by 3. The Difficulty to repair this is 4, though at the Gamemaster&rsquo;s discretion this may be replaced with an Extended Task (Work 10, Magnitude 2, Resistance 1, base Difficulty 2).</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666010728388,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!efWb3Q6lfjSkmCAt"
+}

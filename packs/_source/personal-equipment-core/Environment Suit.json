@@ -1,0 +1,33 @@
+{
+  "name": "Environment Suit",
+  "type": "armor",
+  "img": "modules/sta-compendia/assets/icons/items-core/eva_suit.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.34eItHfwiecXvYL7"
+    }
+  },
+  "_id": "QlWX1oBiKBToeOGI",
+  "system": {
+    "description": "<p><strong>Opportunity 2</strong></p>\n<p>Environment Suits or EV Suits are normally used for extra vehicular activities &mdash; such as moving in hard vacuum. They provide minimal physical protection, mainly due to being made of tough materials. These suits are issued as and when a mission requires &mdash; the Opportunity Cost may be ignored if the mission takes place in an environment that would be deadly without protection. The suits contain magnetic boots, a supply of breathable atmosphere, radiation shielding, and a communications relay more powerful than a normal personal communicator.</p>",
+    "protection": 1,
+    "equipped": true,
+    "opportunity": 2,
+    "escalation": 0
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666008301005,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!QlWX1oBiKBToeOGI"
+}

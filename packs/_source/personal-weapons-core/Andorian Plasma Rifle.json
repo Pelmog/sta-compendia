@@ -1,0 +1,52 @@
+{
+  "_id": "L57jM2qN5uT0PgSs",
+  "name": "Andorian Plasma Rifle",
+  "type": "characterweapon",
+  "img": "modules/sta-compendia/assets/icons/items-core/placeholder.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.u7e7WFbfRKHaKsbC"
+    }
+  },
+  "system": {
+    "description": "<p><strong>Not available</strong></p>\n<p>Andorian plasma rifles use similar principles to phasers used by Starfleet with a particle beam as the primary effect. What is different is the particle beam is augmented by an encapsulated plasma discharge that always causes thermal damage to a target. This means that Andorian style plasma rifles are unable to cause a stun effect, and at best can knock a humanoid unconscious through pain.</p>",
+    "damage": 4,
+    "range": "Ranged",
+    "hands": 2,
+    "qualities": {
+      "area": false,
+      "intense": true,
+      "knockdown": false,
+      "accurate": true,
+      "charge": false,
+      "cumbersome": false,
+      "deadly": true,
+      "debilitating": false,
+      "grenade": false,
+      "inaccurate": false,
+      "nonlethal": false,
+      "hiddenx": 0,
+      "piercingx": 0,
+      "viciousx": 0,
+      "opportunity": 0,
+      "escalation": 0
+    },
+    "opportunity": null,
+    "escalation": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666027341927,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!L57jM2qN5uT0PgSs"
+}

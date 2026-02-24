@@ -1,0 +1,34 @@
+{
+  "name": "Saucer Separation",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-ship.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.SmqbqxKpyf7uMq13"
+    }
+  },
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Galaxy class or Gamemaster's discretion only</p>\n<p>The ship is designed so that the saucer section can be separated from the engineering section, to operate as two distinct ships. Each section has the same Systems, Departments, Talents, and weapons, but their Scale is one lower than the whole ship (recalculate anything derived from Scale), and each section only has half the Power (round down) that the ship had before separation. Further, if the ship has suffered any damage, ongoing effects of that damage apply equally to both sections. The saucer section, which contains the crew quarters and recreational areas, does not have the capacity to go to warp.</p>\n<p>Separating is a <strong>Control + Conn</strong> Task with a Difficulty of 3, assisted by the ship&rsquo;s <strong>Structure + Engineering</strong>, performed from the internal systems position or main engineering. Reconnecting requires the same Task with Difficulty 1, but from crew in both parts of the ship; if either Task fails, the reconnection fails. Separating and reconnection cannot be done if the Structure of either ship has been Damaged or Disabled.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "science",
+      "minimum": 2
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666012257154,
+    "modifiedTime": 1666013815566,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "25m0O12XiSRUEhlD",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!25m0O12XiSRUEhlD"
+}

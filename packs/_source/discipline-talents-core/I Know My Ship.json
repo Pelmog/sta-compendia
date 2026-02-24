@@ -1,0 +1,34 @@
+{
+  "name": "I Know My Ship",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-operations.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.BT4o4VpOaYcAEi2R"
+    }
+  },
+  "_id": "YhGlSaLx2auN0kQ1",
+  "system": {
+    "description": "<p><strong>Requirement:</strong> Engineering 4+</p>\n<p>Whenever you attempt a Task to determine the source of a technical problem with your ship, add one bonus d20.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "engineering",
+      "minimum": 4
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666109087339,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!YhGlSaLx2auN0kQ1"
+}

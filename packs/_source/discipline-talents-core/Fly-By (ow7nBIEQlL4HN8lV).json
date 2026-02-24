@@ -1,0 +1,31 @@
+{
+  "name": "Fly-By",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-conn.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.ykFACVfivgWJdnxf"
+    }
+  },
+  "_id": "ow7nBIEQlL4HN8lV",
+  "system": {
+    "description": "<p><strong>Requirement</strong>: Conn 2+</p>\n<p>Whenever you use the Swift Task Momentum Spend, you do not increase the Difficulty of the second Task if one of the Tasks you attempt is to pilot a vessel or vehicle.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "conn",
+      "minimum": 2
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!ow7nBIEQlL4HN8lV"
+}

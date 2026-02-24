@@ -1,0 +1,31 @@
+{
+  "name": "Parent Figure",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-denobulan.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.DmRgCvuHiNHD7WZQ"
+    }
+  },
+  "_id": "BmDoSMbO0kKyfQ6v",
+  "system": {
+    "description": "<p><strong>Requirement</strong>: Denobulan, or Gamemaster&rsquo;s permission.</p>\n<p>You have a large family, with many children, nieces, and nephews, and you&rsquo;ve learned how to coordinate even the most unruly and fractious of groups when necessary. When attempting or assisting a Task, and two or more other characters are involved in the Task, the first Complication generated on the Task &mdash; either by the character attempting the Task, or one of the assistants &mdash; may be ignored.</p>",
+    "talenttype": {
+      "typeenum": "species",
+      "description": "Denobulan",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!BmDoSMbO0kKyfQ6v"
+}

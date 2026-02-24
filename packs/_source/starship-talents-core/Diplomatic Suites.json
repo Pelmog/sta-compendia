@@ -1,0 +1,34 @@
+{
+  "name": "Diplomatic Suites",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-peace.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.4NwKa3nst2rgKUqw"
+    }
+  },
+  "_id": "e5kzw4tI6HdXvvbY",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> None</p>\n<p>The ship has numerous high-quality staterooms for hosting VIPs, as well as briefing rooms and other facilities that allow the ship to serve as a neutral ground for diplomatic summits, trade negotiations, and similar functions. When hosting negotiations, members of the crew may be assisted by the ship&rsquo;s <strong>Computers + Command</strong> or <strong>Structure + Command</strong>.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666011819431,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!e5kzw4tI6HdXvvbY"
+}

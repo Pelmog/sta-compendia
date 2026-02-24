@@ -23,36 +23,35 @@ Hooks.once('ready', function() {
         .then((message) =>
             {
                 console.log('"credits.html" read successfully');
-                let dialog = new Dialog(
-                    {
-                        title: "Star Trek Adventures Compendia Legal Information",
-                        content: message,
-                        buttons: {
-                            tutorial: {
-                                label: "Show Me Some Tutorials",
-                                callback: () => {
-                                    game.packs.get('sta-compendia.manual-tutorials-core').getDocument('w6U4HlhU66tSmYhP')
-                                        .then((document) => document.sheet.render(true));
-                                }
-                            },
-                            ok: {
-                                label: "OK",
-                                callback: () => dialog.close()
-                            },
-                            dismiss: {
-                                label: "OK & Don't Show Again for This World",
-                                callback: () => {
-                                    game.settings.set('sta-compendia', 'showLegalStartupPopup',false);
-                                    dialog.close();
-                                }
+                const dialog = new foundry.applications.api.DialogV2({
+                    window: { title: "Star Trek Adventures Compendia Legal Information" },
+                    content: message,
+                    buttons: [
+                        {
+                            action: "tutorial",
+                            label: "Show Me Some Tutorials",
+                            callback: () => {
+                                game.packs.get('sta-compendia.manual-tutorials-core')
+                                    .getDocument('w6U4HlhU66tSmYhP')
+                                    .then((doc) => doc.sheet.render(true));
+                            }
+                        },
+                        {
+                            action: "ok",
+                            label: "OK",
+                            default: true
+                        },
+                        {
+                            action: "dismiss",
+                            label: "OK & Don't Show Again for This World",
+                            callback: () => {
+                                game.settings.set('sta-compendia', 'showLegalStartupPopup', false);
                             }
                         }
-                    }
-                );
-                dialog.position.width = window.innerWidth * 0.75;
-                console.log('Message window dimensions: ' + dialog.position.width + ", " + dialog.position.height);
-                console.log('Canvas dimensions: ' + canvas.dimensions.width + ", " + canvas.dimensions.height);
-                dialog.render(true);
+                    ],
+                    position: { width: Math.round(window.innerWidth * 0.75) }
+                });
+                dialog.render({ force: true });
             }
         )
         .catch((error) =>

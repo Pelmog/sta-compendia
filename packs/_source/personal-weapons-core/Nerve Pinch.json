@@ -1,0 +1,49 @@
+{
+  "_id": "PzCpLZoEsMS6G26B",
+  "name": "Nerve Pinch",
+  "type": "characterweapon",
+  "img": "modules/sta-compendia/assets/icons/weapons-core/nerve-pinch.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bmBtiVSrHcFb6gCA"
+    }
+  },
+  "system": {
+    "description": "<p><strong>Requires the Nerve Pinch Talent</strong></p>\n<p>Some applications of neuropressure can be used to swiftly and non-lethally incapacitate assailants. You may use Science or Medicine instead of Security when attempting a nerve pinch Attack, and may increase damage by your Science or Medicine Discipline instead of Security</p>",
+    "damage": 1,
+    "range": "Melee",
+    "hands": 1,
+    "qualities": {
+      "area": false,
+      "intense": true,
+      "knockdown": false,
+      "accurate": false,
+      "charge": false,
+      "cumbersome": false,
+      "deadly": false,
+      "debilitating": false,
+      "grenade": false,
+      "inaccurate": false,
+      "nonlethal": true,
+      "hiddenx": 0,
+      "piercingx": 0,
+      "viciousx": 0,
+      "opportunity": 0,
+      "escalation": 0
+    },
+    "opportunity": null,
+    "escalation": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!PzCpLZoEsMS6G26B"
+}

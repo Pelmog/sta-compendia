@@ -1,0 +1,126 @@
+{
+  "name": "Lifepath 3: Upbringing",
+  "img": "modules/sta-compendia/assets/icons/plain-core/plain-relationship.svg",
+  "description": "Rolls a random upbringing for a player character.",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "2OM2oYH7nxna7ZjQ",
+      "text": "Starfleet",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NueUPiMP70nWmi1Z.2OM2oYH7nxna7ZjQ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "AjdQMxdrjvj9dVMW",
+      "text": "Business or Trade",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NueUPiMP70nWmi1Z.AjdQMxdrjvj9dVMW"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "XdeDgByRuKzd1SnM",
+      "text": "Agriculture or Rural",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NueUPiMP70nWmi1Z.XdeDgByRuKzd1SnM"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "OsZAuqpBn9bQa3T0",
+      "text": "Science and Technology",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NueUPiMP70nWmi1Z.OsZAuqpBn9bQa3T0"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "ZsiaOnH1ImyLMjWe",
+      "text": "Artistic and Creative",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NueUPiMP70nWmi1Z.ZsiaOnH1ImyLMjWe"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "j6mxmU6sssOKuWJF",
+      "text": "Diplomacy and Politics",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NueUPiMP70nWmi1Z.j6mxmU6sssOKuWJF"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "RollTable.ttA40WezeTc5hpGn"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666031411138,
+    "modifiedTime": 1666119231358,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "NueUPiMP70nWmi1Z",
+  "_key": "!tables!NueUPiMP70nWmi1Z"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Commanding Officer",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/roles-core/role-commanding-officer.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Command department only.</p>\n<p>The captain. Even if the commanding officer does not hold the rank of captain, they will be referred to as captain by their subordinates. Every ship must have a commanding officer.</p>\n<p>The commanding officer may spend a point of Determination to grant any other character they can communicate with one point of Determination; this does not have to be linked to a Value.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666004245223,
+    "modifiedTime": 1666006238620,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "USJKPPvCUInJKHmt",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!USJKPPvCUInJKHmt"
+}

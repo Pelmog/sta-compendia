@@ -1,0 +1,46 @@
+{
+  "name": "Plasma Torpedo",
+  "type": "starshipweapon",
+  "img": "modules/sta-compendia/assets/icons/starshipweapons-core/weapon-plasma-torpedo.svg",
+  "system": {
+    "description": "<p>Plasma torpedoes have been used by the Romulans have a wider blast, spreading a lingering field of plasma around the target. They have a base Damage of 3 Challenge Dice Persistent, with the Calibration Quality.</p>\n<p><strong>Persistent 1:</strong> The attack leaves behind a lingering energy field, which continues to damage the target. At the end of each Round, the target vessel suffers an additional 1 damage. This lasts for a number of rounds equal to the number of Effects rolled.</p>\n<p><strong>Calibration:</strong> The weapon requires careful calibration before firing. The weapon cannot be used to attack unless a <em>Prepare </em>Minor Action is performed during the same Turn.</p>",
+    "damage": 3,
+    "range": "Long",
+    "qualities": {
+      "area": false,
+      "spread": false,
+      "dampening": false,
+      "calibration": true,
+      "devastating": false,
+      "highyield": false,
+      "persistentx": 0,
+      "piercingx": 0,
+      "viciousx": 0,
+      "hiddenx": 0,
+      "versatilex": 0
+    },
+    "opportunity": null,
+    "escalation": 1
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.sta-compendia.starship-weapons-core.NVp4iJi1YezyDpyi"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666034989668,
+    "modifiedTime": 1666113176173,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "nmSeKtxXa0h3jupJ",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!nmSeKtxXa0h3jupJ"
+}

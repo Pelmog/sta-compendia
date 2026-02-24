@@ -1,0 +1,29 @@
+{
+  "name": "Weapons (Damaged)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-damaged-weapons.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.GCQA0ljn0O5n8sJR"
+    }
+  },
+  "_id": "sVCMFeSR4SMFQKSU",
+  "system": {
+    "description": "<p><span class=\"fontstyle0\">If the total number of Breaches the Weapons<br>System has suffered is equal to or greater than half the Scale<br>of the ship, then the System has been significantly Damaged.<br>This increases the Difficulty of all Tasks that involve or are<br>assisted by the ship&rsquo;s Weapons by +2 until repaired &mdash;<br>naturally, this includes attacks. The Difficulty to repair this is 3.</span></p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666011605384,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!sVCMFeSR4SMFQKSU"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Ship's Counselor",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/roles-core/role-ships-counsellor.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Medical department only.</p>\n<p>On larger ships and starbases, it&rsquo;s common to have personnel dedicated to the mental soak. Some captains regard them as valuable advisors, as their training covers both culture and psychology, making them exceptionally good at reading the moods and intentions of others.</p>\n<p>After succeeding at a Task to determine the emotional state or intent of another living creature, the ship&rsquo;s counselor gains one bonus Momentum, which may only be used on the<em> Obtain Information</em> Momentum Spend.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666004245223,
+    "modifiedTime": 1666006238622,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "Wxb9VStZHd1RUhVO",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!Wxb9VStZHd1RUhVO"
+}

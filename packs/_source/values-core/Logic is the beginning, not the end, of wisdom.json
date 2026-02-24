@@ -1,0 +1,30 @@
+{
+  "name": "Logic is the beginning, not the end, of wisdom",
+  "type": "value",
+  "img": "modules/sta-compendia/assets/icons/values-core/value-vulcan.svg",
+  "system": {
+    "description": "",
+    "used": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.IC09b8C6MZQQefSU"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666014123752,
+    "modifiedTime": 1666014143117,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "BbLroM7c8OiMGe8S",
+  "_key": "!items!BbLroM7c8OiMGe8S"
+}

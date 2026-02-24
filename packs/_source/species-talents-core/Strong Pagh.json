@@ -1,0 +1,31 @@
+{
+  "name": "Strong Pagh",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-bajoran.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.SeQVFmnxtuXlOOOh"
+    }
+  },
+  "_id": "92O6cedMkmGgCRdT",
+  "system": {
+    "description": "<p><strong>Requirement</strong>: Bajoran, or Gamemaster&rsquo;s permission.</p>\n<p>You believe profoundly in the Prophets, and rely heavily upon that faith to see you through hardship. Whenever you attempt a Task to resist being coerced or threatened, you reduce the Difficulty of that Task by 1.</p>",
+    "talenttype": {
+      "typeenum": "species",
+      "description": "Bajoran",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!92O6cedMkmGgCRdT"
+}

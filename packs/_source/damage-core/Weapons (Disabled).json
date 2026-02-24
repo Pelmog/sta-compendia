@@ -1,0 +1,29 @@
+{
+  "name": "Weapons (Disabled)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-disabled-weapons.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.s038fneNeKmyhckt"
+    }
+  },
+  "_id": "DvxVxK67w9bUHCHi",
+  "system": {
+    "description": "<p>If the total number of Breaches the Weapons System has suffered is equal to the Scale of the ship, then the System has been Disabled. The Weapons System cannot be used to perform or assist any Tasks (even those that would normally be Difficulty 0), which means the ship cannot make Attacks. The Difficulty to repair this is 4, though at the Gamemaster&rsquo;s discretion this may be replaced with an Extended Task (Work 8, Magnitude 2, Resistance 1, base Difficulty 2).</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666011635646,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!DvxVxK67w9bUHCHi"
+}

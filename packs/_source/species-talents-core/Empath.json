@@ -1,0 +1,31 @@
+{
+  "name": "Empath",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-betazoid.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.y21kwdcFUKINsQTh"
+    }
+  },
+  "_id": "5qsqsqexlX3CMaJo",
+  "system": {
+    "description": "<p><strong>Requirement:</strong> Betazoid, or Gamemaster&rsquo;s Permission. Character creation only.</p>\n<p>You can sense the emotions of most living beings nearby, and can communicate telepathically with other empaths and telepaths, as well as those with whom you are extremely familiar. You cannot choose not to sense the emotions of those nearby, except for those who are resistant to telepathy. It may require effort and a Task to pick out the emotions of a specific individual in a crowd, or to block out the emotions of those nearby. Increase the Difficulty of this Task if the situation is stressful, if there are a lot of beings present, if the target has resistance to telepathy, and other relevant factors.</p>",
+    "talenttype": {
+      "typeenum": "species",
+      "description": "Betazoid",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!5qsqsqexlX3CMaJo"
+}

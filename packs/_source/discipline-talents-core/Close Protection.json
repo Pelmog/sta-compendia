@@ -1,0 +1,31 @@
+{
+  "name": "Close Protection",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-security.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.FUiOLe1DxdOhNLlo"
+    }
+  },
+  "_id": "bpmmB6wXGdqBgWg8",
+  "system": {
+    "description": "<p><strong>Requirement:</strong> Security 4+</p>\n<p>When you make a successful Attack, you may spend one Momentum to protect a single ally within Close range. The next Attack against that ally before the start of your next turn increases in Difficulty by 1.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "security",
+      "minimum": 4
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!bpmmB6wXGdqBgWg8"
+}

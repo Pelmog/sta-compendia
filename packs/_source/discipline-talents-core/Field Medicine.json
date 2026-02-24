@@ -1,0 +1,31 @@
+{
+  "name": "Field Medicine",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-medical.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.oBgeKMXSW6c44KR4"
+    }
+  },
+  "_id": "HChkEPL0VnyIcBTF",
+  "system": {
+    "description": "<p><strong>REQUIREMENT</strong>: None</p>\n<p>When attempting a <strong>Medicine </strong>Task, you may ignore any increase in Difficulty for working without the proper tools or equipment.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "medicine",
+      "minimum": 4
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!HChkEPL0VnyIcBTF"
+}

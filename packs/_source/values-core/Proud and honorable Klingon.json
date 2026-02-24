@@ -1,0 +1,30 @@
+{
+  "name": "Proud and honorable Klingon",
+  "type": "value",
+  "img": "modules/sta-compendia/assets/icons/values-core/value-klingon.svg",
+  "system": {
+    "description": "",
+    "used": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.IC09b8C6MZQQefSU"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666014123752,
+    "modifiedTime": 1666014176156,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "A8AUB0T00dyYcNsX",
+  "_key": "!items!A8AUB0T00dyYcNsX"
+}

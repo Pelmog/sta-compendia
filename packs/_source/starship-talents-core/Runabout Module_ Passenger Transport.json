@@ -1,0 +1,30 @@
+{
+  "name": "Runabout Module: Passenger Transport",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-relationship.svg",
+  "system": {
+    "description": "<p><strong>Requirement:</strong> Danube Class Runabout, no other modules present</p>\n<p>The runabout&rsquo;s aft module has been configured for carrying large numbers of passengers. The runabout may carry up to 10 passengers, or up to 40 in an emergency (maximum 2 hours).</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666040057078,
+    "modifiedTime": 1666040410410,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_id": "VU0VJt9MQLqcy5gH",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!VU0VJt9MQLqcy5gH"
+}

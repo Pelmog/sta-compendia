@@ -1,0 +1,29 @@
+{
+  "name": "Sensors (Damaged)",
+  "type": "injury",
+  "img": "modules/sta-compendia/assets/icons/damage-core/damage-damaged-sensors.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.HR3nGMEfPFrIObJu"
+    }
+  },
+  "_id": "dkeDiGGp286CAwJQ",
+  "system": {
+    "description": "<p>If the total number of Breaches the Sensors system has suffered is equal to or greater than half the Scale of the ship, then the system has been significantly Damaged. This increases the Difficulty of all Tasks that involve or are assisted by the ship&rsquo;s Sensors by +2 until repaired. Further, any Attacks the ship makes increase in Difficulty by +1 until this damage has been repaired. The Difficulty to repair this is 3.</p>"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": 1666011092008,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "_key": "!items!dkeDiGGp286CAwJQ"
+}

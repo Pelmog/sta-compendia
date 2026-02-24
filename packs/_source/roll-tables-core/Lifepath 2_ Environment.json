@@ -1,0 +1,126 @@
+{
+  "name": "Lifepath 2: Environment",
+  "img": "modules/sta-compendia/assets/icons/plain-core/plain-heritage.svg",
+  "description": "Rolls a random heritage for a player character.",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "2OM2oYH7nxna7ZjQ",
+      "text": "Homeworld",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!aKVBsqSbuYnmFeEB.2OM2oYH7nxna7ZjQ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "AjdQMxdrjvj9dVMW",
+      "text": "Busy Colony",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!aKVBsqSbuYnmFeEB.AjdQMxdrjvj9dVMW"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "XdeDgByRuKzd1SnM",
+      "text": "Isolated Colony",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!aKVBsqSbuYnmFeEB.XdeDgByRuKzd1SnM"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "OsZAuqpBn9bQa3T0",
+      "text": "Frontier Colony",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!aKVBsqSbuYnmFeEB.OsZAuqpBn9bQa3T0"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "ZsiaOnH1ImyLMjWe",
+      "text": "Starship or Starbase",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!aKVBsqSbuYnmFeEB.ZsiaOnH1ImyLMjWe"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "j6mxmU6sssOKuWJF",
+      "text": "Another Species' World",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!aKVBsqSbuYnmFeEB.j6mxmU6sssOKuWJF"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "RollTable.qVHJKOGKLv67vgCK"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666031411138,
+    "modifiedTime": 1666119229575,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "aKVBsqSbuYnmFeEB",
+  "_key": "!tables!aKVBsqSbuYnmFeEB"
+}

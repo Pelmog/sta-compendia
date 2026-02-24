@@ -1,0 +1,34 @@
+{
+  "name": "Mind-Meld",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-vulcan.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.ciP8l6TpILKPjJLj"
+    }
+  },
+  "system": {
+    "description": "<p><strong>Requirement</strong>: Vulcan.</p>\n<p>You have undergone training in telepathic techniques that allow the melding of minds through physical contact. This will always require a Task with a Difficulty of at least 1, which can be opposed by an unwilling participant. If successful, you link minds with the participant, sharing thoughts and memories; Momentum may be spent to gain more information, or perform deeper telepathic exchanges. This link goes both ways, and it is a tiring and potentially hazardous process for you. Complications can result in pain, disorientation, or lingering emotional or behavioral difficulties.</p>",
+    "talenttype": {
+      "typeenum": "species",
+      "description": "Vulcan",
+      "minimum": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666030060379,
+    "modifiedTime": 1666030309641,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "kU8vPjUtkgzGSdRp",
+  "_key": "!items!kU8vPjUtkgzGSdRp"
+}

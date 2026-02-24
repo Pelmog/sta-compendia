@@ -1,0 +1,34 @@
+{
+  "name": "Crew, Basic (A: 8/D: 1)",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-career-young.svg",
+  "system": {
+    "description": "<p><strong>Basic Crew Quality: Attribute 8, Discipline 1</strong></p>\n<p>An NPC ship does not have specific crew at individual positions on the bridge &mdash; this level of detail is unnecessary for running an NPC ship. Instead, each NPC vessel has a Crew Quality, which provides ratings which serve as the Attribute and Discipline scores needed by the vessel for any given Task. NPC crew used in this way are always considered to have an applicable Focus.</p>",
+    "talenttype": {
+      "typeenum": "general",
+      "description": "",
+      "minimum": 0
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.HF0jB8aKpKyMulqG"
+    }
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351",
+    "createdTime": 1666696875910,
+    "modifiedTime": 1666697790709,
+    "lastModifiedBy": "b3MVB0kAwuP1VMcv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "la2U83R2bcKc3Xie",
+  "_key": "!items!la2U83R2bcKc3Xie"
+}

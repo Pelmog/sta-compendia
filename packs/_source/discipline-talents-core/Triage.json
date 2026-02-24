@@ -1,0 +1,31 @@
+{
+  "name": "Triage",
+  "type": "talent",
+  "img": "modules/sta-compendia/assets/icons/talents-core/talent-medical.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.uomm13KvBFi66pW7"
+    }
+  },
+  "_id": "CpmMR2O27cckxh9O",
+  "system": {
+    "description": "<p><strong>REQUIREMENT</strong>: Medicine 3+</p>\n<p>When you attempt a Task to identify specific injuries or illnesses, or to determine the severity of a patient&rsquo;s condition, you may spend one Momentum (Repeatable) to diagnose one additional patient.</p>",
+    "talenttype": {
+      "typeenum": "discipline",
+      "description": "medicine",
+      "minimum": 3
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "sta",
+    "systemVersion": "2.5.1",
+    "coreVersion": "13.351"
+  },
+  "_key": "!items!CpmMR2O27cckxh9O"
+}
