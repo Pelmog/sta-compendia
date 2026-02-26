@@ -54,6 +54,35 @@ for pack in packs/_source/*/; do
 done
 ```
 
+## Foundry MCP Server (Primary)
+
+Managed by the `foundry-mcp` Claude Code skill (`.claude/skills/foundry-mcp/`). Direct socket connection to a live Foundry VTT world via 15 MCP tools (`mcp__foundry__*`).
+
+```bash
+# Quick operations via MCP tools
+foundry_status                          # Check connection
+foundry_list type: "Actor"              # List actors
+foundry_exec_js script: "return ..."    # Run JS in Foundry browser
+```
+
+See also: `sta-dice` skill (`.claude/skills/sta-dice/`) for STA dice rolling recipes via `STARoll`.
+
+## Foundry REST API (Legacy)
+
+Managed by the `foundry-api` Claude Code skill (`.claude/skills/foundry-api/`). Uses the foundryvtt-rest-api relay (external dependency). Superseded by the MCP server above.
+
+- **Client library**: `scripts/foundry-api.mjs` — `FoundryAPI` class covering all 45 endpoints
+- **CLI wrapper**: `scripts/foundry-cli.mjs` — command-line access to all operations
+- **Config**: `.env` file in project root with `FOUNDRY_API` key (gitignored)
+- **Relay URL**: `https://foundryvtt-rest-api-relay.fly.dev/`
+
+```bash
+# Quick test
+node scripts/foundry-cli.mjs status
+node scripts/foundry-cli.mjs clients
+node scripts/foundry-cli.mjs exec-js "return game.actors.contents.map(a => a.name)"
+```
+
 ## Compatibility
 - Foundry VTT: v13+
 - STA System: v2.0.0+
