@@ -64,24 +64,24 @@ The Enterprise investigates the derelict USS *Arcturus* (NCC-1807), a Miranda-cl
 - Entity Manifestation Effects rolled during this act
 
 ### Act 5: Understanding the Enemy (~60 min)
-**Extended Challenge: Decode the Cartographer**
-- Magnitude 3, Work 12 per breakthrough, Resistance 1
+**Extended Task: Decode the Cartographer**
+- Progress Track: 12 boxes, Difficulty 2, Resistance 1
+- 2 breakthroughs (at 6 boxes and 9 boxes)
 
-**Three breakthroughs:**
-1. **The Entity's Nature** — it's a researcher, not a predator; doesn't understand its mapping kills people
-2. **Two Options Emerge** — Communication (risky, hopeful) vs. Subspace Shockwave (safe, destructive)
-3. **The Key Insight** — communication requires allowing partial mapping; volunteer needed
+**Breakthroughs:**
+1. **The Entity's Nature & Two Options** (6 boxes) — it's a researcher, not a predator; doesn't understand its mapping kills people. Two approaches emerge: Communication (risky, hopeful) vs. Subspace Shockwave (safe, destructive)
+2. **The Key Insight** (9 boxes) — communication requires allowing partial mapping; volunteer needed
 
 ### Act 6: The Choice (~45–60 min)
 
 #### Option A: Communication
-- Extended Challenge (Magnitude 2, Work 10, Resistance 2)
+- Extended Task (Progress Track 10, Difficulty 3, Resistance 2)
 - Volunteer allows partial neural mapping with modified Neural Pattern Shielding
 - **Success:** Entity withdraws, 78 crew materialize alive, entity learns from mistake
 - **Failure:** Volunteer consumed, must resort to Option B or try again (fewer rescued)
 
 #### Option B: Subspace Shockwave
-- Extended Challenge (Magnitude 2, Work 8, Resistance 1)
+- Extended Task (Progress Track 8, Difficulty 2, Resistance 1)
 - Rig Arcturus warp core to overload, generate subspace disruption
 - **Success:** Entity driven away, Arcturus destroyed, 78 patterns lost forever
 - **Failure:** Shockwave insufficient, entity enraged, must try with Enterprise's core or communicate
@@ -90,33 +90,35 @@ The Enterprise investigates the derelict USS *Arcturus* (NCC-1807), a Miranda-cl
 
 ## Characters
 
-### Captain James T. Kirk (Exceptional NPC)
+### Captain James T. Kirk (Major NPC)
 - **Attributes:** CTL 10 / DAR 12 / FIT 11 / INS 10 / PRE 12 / REA 9
 - **Disciplines:** CMD 5 / CON 3 / ENG 2 / MED 1 / SCI 2 / SEC 4
-- **Stress:** 15 | **Determination:** 3
+- **Personal Threat:** 10 (6 base + 4 values)
 - **Values:** Risk is Our Business; I Will Not Kill Today; The Needs of the Many; I Am the Captain
 - **Focuses:** Inspiration, Persuasion, Hand-to-Hand Combat, Starship Tactics, Xenobiology, Lead by Example
 - **Talents:** Bold: Command, Decisive Leadership, Dauntless, Veteran
 
 ### USS Arcturus (NCC-1807) — Miranda-class Survey Vessel
-- **Scale:** 3
-- **Systems:** COM 8 / COMP 10 / ENG 8 / SEN 11 / STR 7 / WEP 7
-- **Departments:** CMD 2 / CON 2 / ENG 2 / MED 2 / SCI 4 / SEC 1
+- **Scale:** 4
+- **Systems:** COM 9 / COMP 9 / ENG 9 / SEN 11 / STR 9 / WEP 9
+- **Departments:** CMD 2 / CON 2 / ENG 2 / MED 2 / SCI 4 / SEC 2
 - **Talents:** Advanced Sensor Suite, Dedicated Survey Systems, Improved Warp Drive
 
-### Lt. Cmdr. Elena Vasari (Proficient NPC)
+### Lt. Cmdr. Elena Vasari (Notable NPC)
 - Arcturus XO, science specialist; consumed by the entity
 - Voice in the personal logs, echo used by entity for communication
-- **Values:** There Is Always More to Discover; The Crew Comes First
+- **Personal Threat:** 3
+- **Value:** There Is Always More to Discover
+- **Focuses:** Subspace Phenomena, Xenolinguistics, Astrophysics
 
 ### Ensign David Chen (Minor NPC)
 - Enterprise operations officer; first to show entity contamination
 - Used in Act 4 horror scenes; entity speaks through him
-- **Focuses:** Systems Monitoring, Power Distribution
+- Minor NPCs are instantly defeated — no Personal Threat track
 
 ### The Cartographer (Entity — no actor sheet)
 - Vast subspace intelligence; exists between dimensions
-- Attacks: Reason 12 + Science 5 (TN 17, 3 dice)
+- Attacks: Reason 12 + Science 5 (opposed task, 3 dice)
 - Cannot be physically harmed; driven by Threat pool
 - Not evil — curious, a researcher that doesn't understand death
 
@@ -126,7 +128,7 @@ The Enterprise investigates the derelict USS *Arcturus* (NCC-1807), a Miranda-cl
 
 | Item | Type | Effect |
 |------|------|--------|
-| Subspace Contamination | Injury | 2 irrecoverable Stress; progressive neural mapping; catatonic if maxed |
+| Subspace Contamination | Injury | Severity 2; +1 Difficulty to Reason/Insight Tasks; second application → Severity 4 (incapacitated) |
 | Modified Subspace Scanner | Equipment | -1 Difficulty on subspace scans; each use gives GM 1 Threat |
 | Neural Pattern Shielding | Equipment | Resistance 1 vs. entity; prevents further contamination; blocks communication |
 
@@ -151,7 +153,7 @@ The Enterprise investigates the derelict USS *Arcturus* (NCC-1807), a Miranda-cl
 | 1 | **Complication** — increase Complication Range by 1 for one Task |
 | 2 | **Contaminate** — apply Subspace Contamination to a crew member |
 | 2 | **System Drain** — one ship system loses 1 point |
-| 3 | **Neural Assault** — entity Reason 12 + Science 5 vs. target; failure = 3 Stress + Contamination |
+| 3 | **Neural Assault** — entity Reason 12 + Science 5 opposed task vs. target; failure = 3 Stress + Contamination |
 | 3 | **Puppeteer** — control Ensign Chen or contaminated NPC for one action |
 | 4 | **Timeline Acceleration** — reduce 72-hour countdown by 12 hours |
 
@@ -182,10 +184,11 @@ The Enterprise investigates the derelict USS *Arcturus* (NCC-1807), a Miranda-cl
 - **SC: Helmsman Briefing**
 
 ### Actors
-- Captain James T. Kirk (character, exceptional NPC)
-- USS Arcturus NCC-1807 (starship, Miranda-class)
-- Lt. Cmdr. Elena Vasari (character, proficient NPC)
+- Captain James T. Kirk (character, major NPC, Personal Threat 10)
+- USS Arcturus NCC-1807 (starship, Miranda-class, Scale 4)
+- Lt. Cmdr. Elena Vasari (character, notable NPC, Personal Threat 3)
 - Ensign David Chen (character, minor NPC)
+- Decode the Cartographer (extended task, Progress Track 12, 2 breakthroughs)
 
 ### Items
 - Subspace Contamination (injury)
