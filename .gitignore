@@ -1,9 +1,13 @@
 *.pem
 *.pub
 foundry-vtt-ssh-key*
+.env
 .DS_Store
 
 # Compiled LevelDB packs (must be compiled on target server)
 # Source JSON files in packs/_source/ are the canonical data
 packs/*
 !packs/_source
+
+# Generated audio (deployed to Foundry server, not tracked in git)
+audio/
