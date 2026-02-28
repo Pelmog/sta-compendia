@@ -67,6 +67,7 @@ foundry_exec_js script: "return ..."    # Run JS in Foundry browser
 
 See also: `sta-dice` skill (`.claude/skills/sta-dice/`) for STA dice rolling recipes via `STARoll`.
 See also: `character-import` skill (`.claude/skills/character-import/`) for importing player characters from JSON, bcholmes.org URLs, or plain-text specs.
+See also: `lazy-session-prep` skill (`.claude/skills/lazy-session-prep/`) for structured session preparation using the Lazy Dungeon Master checklist, adapted for STA 2e.
 
 ## Foundry REST API (Legacy)
 
