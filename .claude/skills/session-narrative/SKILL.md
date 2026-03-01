@@ -7,11 +7,16 @@ description: Convert RPG session transcripts into fictional narrative chapters u
 
 Transform RPG session transcripts into polished fictional narrative chapters in the style of Dean Koontz. Uses a team of specialized agents (Director, Writers, Editor, Publisher) working in parallel.
 
+## Configuration
+
+- **Google account:** `pelmog@gmail.com` (for Google Drive upload)
+
 ## Prerequisites
 
 - Session transcript at `sessions/sessionXX-transcript.md`
 - Character roster at `players/CHARACTERS.md`
 - Foundry MCP connection (for publishing to Foundry journal)
+- Google Workspace MCP connection (for Google Drive upload)
 - Previous session summaries at `sessions/sessionXX-summary.md` (if not the first session)
 
 ## Quick Start
@@ -182,6 +187,13 @@ Agent:
        - text.content: [styled HTML]
        - ownership: { default: 2 } (Observer — players can read)
     6. Report the journal ID and page ID
+    7. Upload the chapter markdown to Google Drive:
+       Use mcp__google-workspace__import_to_google_doc with:
+       - user_google_email: "pelmog@gmail.com"
+       - file_name: "Chapter XX: [Title]"
+       - file_path: "sessions/sessionXX-narrative.md"
+       - source_format: "md"
+    8. Report the Google Doc link
 
     Mark your task as completed.
 ```
