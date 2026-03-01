@@ -1,0 +1,94 @@
+{
+  "session": 1,
+  "chapter_number": 1,
+  "chapter_title": "Ghost Ship",
+  "stardate": "2267.143",
+  "scenes": [
+    {
+      "number": 1,
+      "title": "The Night Shift",
+      "transcript_lines": [1, 870],
+      "pov_character": "T'Karra",
+      "characters_present": ["T'Karra", "Vex", "Thon", "Malevolant", "Brex", "Healer"],
+      "location": "USS Enterprise Bridge",
+      "emotional_arc": "curiosity → tension → wary camaraderie",
+      "key_beats": [
+        "T'Karra arrives on the bridge in Vulcan robes, no uniform, no rank — immediately establishes herself as an outsider with authority",
+        "The crew sizes each other up: Thon the Andorian warrior eyeing the civilian Vulcan, Brex the ancient Edosian plugged into his console ignoring politics, Malevolant the Orion watching everyone",
+        "T'Karra stands beside the command chair and asks for station readiness — claiming authority without rank",
+        "Brex waves his third hand dismissively: 'I don't think you're supposed to be sat there'"
+      ],
+      "comedy_opportunities": [
+        "T'Karra's glasses (allergic to Retnax-5) — 'Are you out of your Vulcan mind?'",
+        "Vex and T'Karra bonding over having no 'rizz': 'We could be friends. I also have none of this Riz that humans speak of.'",
+        "Brex being 400 years old and 'too old for politics', browsing how to fix a hi-fi system during bridge duty",
+        "Healer the Kzinti doctor's dry introduction: 'I'm Healer. I'm here to make sure everybody stays well.'"
+      ],
+      "narrative_purpose": "Introduce all six PCs through their first meeting on the Enterprise bridge. Establish personalities, tensions, and the unusual dynamic of a civilian Vulcan taking command. This is the reader's entry point into the crew."
+    },
+    {
+      "number": 2,
+      "title": "The Void",
+      "transcript_lines": [870, 1150],
+      "pov_character": "T'Karra",
+      "characters_present": ["T'Karra", "Vex", "Thon", "Malevolant", "Brex", "Healer"],
+      "location": "USS Enterprise Bridge — approaching the Arcturus",
+      "emotional_arc": "authority → briefing gravitas → first chill of dread",
+      "key_beats": [
+        "T'Karra delivers the mission briefing: USS Arcturus, Miranda-class, vanished 11 months ago, crew of 78, no distress signal",
+        "The Enterprise drops out of warp — the Arcturus appears on the viewscreen, intact but drifting in an unnervingly dark void corridor",
+        "T'Karra reveals the Vulcan Science Academy requested Enterprise specifically — and she was placed in acting command for the approach",
+        "The image on the viewscreen: a ship alone in darkness, running lights faintly glowing"
+      ],
+      "comedy_opportunities": [
+        "Brex muttering about being too old for this as T'Karra assumes command"
+      ],
+      "narrative_purpose": "Transition from character introduction to the mission. Build atmospheric dread through T'Karra's clinical Vulcan briefing contrasted with the eerie image of a ghost ship in empty space. Establish the mystery: why did a ship with 78 people simply stop?"
+    },
+    {
+      "number": 3,
+      "title": "What the Sensors Found",
+      "transcript_lines": [1150, 1850],
+      "pov_character": "Malevolant",
+      "characters_present": ["T'Karra", "Vex", "Thon", "Malevolant", "Brex"],
+      "location": "USS Enterprise Bridge — scanning the Arcturus",
+      "emotional_arc": "professional focus → growing unease → visceral horror",
+      "key_beats": [
+        "Malevolant scans for life signs: zero. No crew, no bodies, no biomatter. 78 people simply gone.",
+        "Shields down, life support running at minimal. The ship isn't dead — it's waiting.",
+        "Vex accesses the ship's logs — and watches them vanish from the screen in real-time. Someone or something is deleting records as he reads.",
+        "Brex scans the warp field: the deflector dish is emitting a subspace rhythm that matches a human heartbeat",
+        "Thon overrides the Arcturus viewscreen using security codes — and they all see the message: 'I have mapped 78 of you. You are beautiful. There are more of you now. I would like to continue.'"
+      ],
+      "comedy_opportunities": [
+        "The crew's escalating reactions to the entity message — 'Denied.' 'You didn't say this was going to get creepy.'",
+        "T'Karra's emotional outburst (rage quit joke becomes frustrated Vulcan moment): 'Figure out the creepy human-eating monster on your own. Or. Let's form an away team.'"
+      ],
+      "narrative_purpose": "The investigation scene — each crew member contributes their expertise and each discovery makes things worse. Build from clinical analysis to genuine horror. The entity message is the chapter's central revelation. End on the dawning realisation that whatever happened to the Arcturus crew wasn't violent — it was intimate."
+    },
+    {
+      "number": 4,
+      "title": "Into the Dark",
+      "transcript_lines": [1850, 1983],
+      "pov_character": "Thon",
+      "characters_present": ["T'Karra", "Vex", "Thon", "Malevolant", "Brex", "Healer", "Kirk"],
+      "location": "USS Enterprise Bridge → Corridor → Transporter Room Two",
+      "emotional_arc": "defiance → grim determination → the walk to the transporter",
+      "key_beats": [
+        "T'Karra calls for an away team — every bridge officer. All of them are going.",
+        "She recruits two redshirts as well. The crew jokes darkly about cannon fodder.",
+        "Kirk arrives on the bridge with his swagger and grin: 'Enjoy your mission, I'll take the ship.'",
+        "The crew heads to transporter room two. Six can go. Cliffhanger: they step onto the pad."
+      ],
+      "comedy_opportunities": [
+        "T'Karra: 'I'm nicer than Kirk, therefore you may all come with me, including the nameless redshirts who shall be cannon fodder'",
+        "Brex lured onto the away team: 'If you come on this mission, I'll help you fix your hi-fi'",
+        "'Please don't take the ship.' Kirk just grins.",
+        "'This is why Vulcans don't like humans.'"
+      ],
+      "narrative_purpose": "The chapter closer. Shift from horror-discovery to action-decision. End with the crew walking into danger together — a moment that defines who they are. Kirk's brief appearance grounds us in the larger Star Trek universe. The cliffhanger propels the reader to Chapter 2."
+    }
+  ],
+  "story_so_far": null,
+  "notes": "This is Session 1 (first session), so there is no previous chapter summary. The transcript includes significant table talk, rules explanations, Foundry VTT troubleshooting, and Discord audio issues — all of which should be silently dropped per the style guide."
+}
