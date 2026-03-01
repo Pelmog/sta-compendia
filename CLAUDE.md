@@ -69,6 +69,7 @@ See also: `sta-dice` skill (`.claude/skills/sta-dice/`) for STA dice rolling rec
 See also: `character-import` skill (`.claude/skills/character-import/`) for importing player characters from JSON, bcholmes.org URLs, or plain-text specs.
 See also: `lazy-session-prep` skill (`.claude/skills/lazy-session-prep/`) for structured session preparation using the Lazy Dungeon Master checklist, adapted for STA 2e.
 See also: `foundry-audio` skill (`.claude/skills/foundry-audio/`) for generating voice audio with ElevenLabs TTS and deploying to Foundry VTT playlists.
+See also: `session-narrative` skill (`.claude/skills/session-narrative/`) for converting session transcripts into fictional narrative chapters using an agent team.
 
 ## Foundry REST API (Legacy)
 
