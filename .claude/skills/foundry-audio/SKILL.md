@@ -36,6 +36,23 @@ mcp__elevenlabs__text_to_speech
   output_directory: "<project>/audio"
 ```
 
+### Live Entity Voice (session play)
+For real-time entity voice during sessions, use unique filenames (Foundry caches audio):
+```
+mcp__elevenlabs__text_to_speech
+  text: "<formatted text — see Text Formatting below>"
+  voice_id: "gr22TBs5Eoe6297iS7Zi"
+  stability: 0.15
+  similarity_boost: 0.5
+  style: 0.3
+  speed: 0.7
+  output_directory: "<project>/audio"
+```
+Upload to `entity-voice/` on server with a unique name, then play:
+```js
+AudioHelper.play({ src: "entity-voice/<unique-name>.mp3", volume: 0.8, loop: false }, true);
+```
+
 ### Generate a line with a stock voice
 ```
 mcp__elevenlabs__text_to_speech
@@ -205,23 +222,35 @@ mcp__elevenlabs__text_to_sound_effects
 
 | Parameter | Range | Low Value Effect | High Value Effect | Entity Default |
 |-----------|-------|-----------------|-------------------|----------------|
-| stability | 0-1 | Expressive, varied, unpredictable | Monotone, consistent | 0.25 |
+| stability | 0-1 | Expressive, varied, unpredictable | Monotone, consistent | 0.15 |
 | similarity_boost | 0-1 | More creative interpretation | Closer to original | 0.5 |
-| style | 0-1 | Neutral delivery | Exaggerated style | 0.2 |
+| style | 0-1 | Neutral delivery | Exaggerated style | 0.3 |
 | speed | 0.7-1.2 | Slow, deliberate | Fast, urgent | 0.7 |
 
 **Character archetypes:**
-- **Entity/alien**: stability 0.2-0.3, speed 0.7, low style — uncanny, deliberate
+- **Entity/alien**: stability 0.15, speed 0.7, style 0.3 — breathy, unstable, unsettling whisper
 - **Panicked officer**: stability 0.3, speed 1.1, style 0.5 — emotional, urgent
 - **Calm Vulcan**: stability 0.8, speed 0.9, style 0.0 — controlled, precise
 - **Ship computer**: stability 0.9, speed 1.0, style 0.0 — flat, mechanical
 
-## Text Tips for Better TTS
+## Text Formatting for TTS
 
-- Use **ellipses** (`...`) to create natural pauses: `"I have mapped... seventy-eight of you."`
+### The Cartographer Entity Voice
+The entity speaks with unnatural pauses and odd emphasis — as if reaching for words across dimensions.
+
+**Formatting rules:**
+- **Ellipses after verbs/pronouns** for dimensional pauses: `"I have mapped... seventy-eight of you."`
+- **CAPITALISE key words** for odd, alien emphasis: `"Like music... made of... LIGHTNING."`
+- **Frequent ellipses** — more pauses than natural speech: `"Your species is... the most beautiful structure... I have encountered"`
+- **Spell out numbers**: `"seventy-eight"` not `"78"`, `"four point seven billion"` not `"4.7 billion"`
+- **Short fragments** hit harder in the whispered voice
+
+**Example — natural text vs formatted:**
+- Natural: `"I am a cartographer. I map what I find beautiful."`
+- Formatted: `"I am... a CARTOGRAPHER. I map... what I find... BEAUTIFUL."`
+
+### General Tips
 - Use **em dashes** (`—`) for interruptions or breaks in thought
-- Spell out numbers for correct pronunciation: `"seventy-eight"` not `"78"`
-- Add stage directions as pauses: separate sentences for distinct emotional beats
 - Short sentences hit harder in whispered voices
 - For logs that degrade over time, generate the same voice with progressively lower stability
 

@@ -87,6 +87,37 @@ node scripts/foundry-cli.mjs clients
 node scripts/foundry-cli.mjs exec-js "return game.actors.contents.map(a => a.name)"
 ```
 
+### Code Intelligence
+
+Prefer LSP over Grep/Glob/Read for code navigation:
+- `goToDefinition` / `goToImplementation` to jump to source
+- `findReferences` to see all usages across the codebase
+- `workspaceSymbol` to find where something is defined
+- `documentSymbol` to list all symbols in a file
+- `hover` for type info without reading the file
+- `incomingCalls` / `outgoingCalls` for call hierarchy
+
+Before renaming or changing a function signature, use
+`findReferences` to find all call sites first.
+
+Use Grep/Glob only for text/pattern searches (comments,
+strings, config values) where LSP doesn't help.
+
+After writing or editing code, check LSP diagnostics before
+moving on. Fix any type errors or missing imports immediately.
+
+## Campaign Content
+
+### The Silent Cartographer (Adventure)
+- **Design doc**: `docs/plans/2026-02-27-silent-cartographer-design.md` — full adventure centered on the USS Arcturus
+- **Image notes**: `docs/plans/2026-02-27-silent-cartographer-images.md`
+- **Session 1**: `sessions/session01-transcript.md`, `session01-narrative.md`, `session01-summary.md`
+- **Session 2 prep**: `sessions/session02-prep.md` (Lazy DM format) with assets in `sessions/session02-assets/`
+
+### Player Characters
+- **Reference**: `players/CHARACTERS.md` — all PC stats, values, talents
+- **Foundry exports**: `players/*.json` — importable via `character-import` skill
+
 ## Compatibility
 - Foundry VTT: v13+
 - STA System: v2.0.0+
