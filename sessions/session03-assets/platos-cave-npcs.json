@@ -1,0 +1,94 @@
+{
+  "npcs": [
+    {
+      "name": "Machine Consciousness",
+      "type": "character",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "species": "Digital Construct",
+        "rank": "",
+        "assignment": "",
+        "characterrole": "",
+        "pronouns": "we/us",
+        "traits": "Multiple Personalities, Insane",
+        "npcType": "major",
+        "attributes": {
+          "control":  { "value": 11 },
+          "daring":   { "value": 10 },
+          "fitness":  { "value": 9 },
+          "insight":  { "value": 11 },
+          "presence": { "value": 11 },
+          "reason":   { "value": 7 }
+        },
+        "disciplines": {
+          "command":     { "value": 2 },
+          "conn":        { "value": 1 },
+          "engineering": { "value": 2 },
+          "medicine":    { "value": 4 },
+          "science":     { "value": 5 },
+          "security":    { "value": 2 }
+        },
+        "stress": { "value": 0, "max": 6 },
+        "determination": { "value": 0, "max": 0 }
+      },
+      "values": [
+        "The Weak Will Be Subsumed",
+        "We Have Earned Our Survival",
+        "We Are Prisoners of the Machine",
+        "We Are Real, We Are Real, We Are Real...Aren't We?"
+      ],
+      "focuses": [
+        "Brain Computer Interface",
+        "Cybernetics",
+        "Robotics",
+        "Whole Brain Emulation"
+      ],
+      "notes": "Personal Threat 6. Specific Weakness: destroying quantum computers kills it (if not downloaded elsewhere). Shutting down power renders it inert. Secure Servers: +1d20 on opposed tasks to keep intruders out. Additional Threat Spent: re-roll any d20s on Security tasks for 1 Threat. Out of Many, One: spend 2 Threat for a bonus Focus for the scene."
+    },
+    {
+      "name": "Autonomous Security Drone",
+      "type": "character",
+      "img": "icons/svg/combat.svg",
+      "system": {
+        "species": "Robot",
+        "rank": "",
+        "assignment": "",
+        "characterrole": "",
+        "traits": "Tracked Robot, Primitive AI",
+        "npcType": "minor",
+        "attributes": {
+          "control":  { "value": 8 },
+          "daring":   { "value": 9 },
+          "fitness":  { "value": 9 },
+          "insight":  { "value": 7 },
+          "presence": { "value": 8 },
+          "reason":   { "value": 7 }
+        },
+        "disciplines": {
+          "command":     { "value": 2 },
+          "conn":        { "value": 1 },
+          "engineering": { "value": 1 },
+          "medicine":    { "value": 0 },
+          "science":     { "value": 0 },
+          "security":    { "value": 2 }
+        },
+        "stress": { "value": 0, "max": 11 },
+        "determination": { "value": 0, "max": 0 }
+      },
+      "focuses": ["Combat Tactics"],
+      "notes": "Machine 1 trait. Attacks: Machine Gun (Ranged, 4A Intense, Vicious 1, Size 2H, Debilitating). Resistance 1."
+    },
+    {
+      "name": "Tanghal IV Science Outpost",
+      "type": "starship",
+      "notes": "Used as a 'ship' for the outpost's systems. Traits: Federation Science Outpost, Modular. Systems: Engines 5, Comms 8, Structure 7, Sensors 10, Computers 10, Weapons 0. Departments: Command 2, Conn 1, Security 1, Engineering 1, Science 5, Medicine 2. Power 5, Scale 3, Shields 8, Resistance 3."
+    }
+  ],
+  "items_needed": [
+    {
+      "type": "characterweapon2e",
+      "name": "Machine Gun (Primitive)",
+      "notes": "Ranged, 4 Challenge Dice, Intense, Vicious 1, Size 2H, Debilitating. For the security drones."
+    }
+  ]
+}
